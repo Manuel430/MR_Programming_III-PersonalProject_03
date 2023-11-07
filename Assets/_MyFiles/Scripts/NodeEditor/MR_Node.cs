@@ -5,12 +5,12 @@ using UnityEngine;
 
 namespace MR
 {
-    public class MR_Node : MonoBehaviour
+    public class MR_Node : ScriptableObject
     {
         [SerializeField][HideInInspector] List<MR_Node> connectedNodesList;
-        [SerializeField][HideInInspector] Rect rect = new Rect();
         [SerializeField][HideInInspector] MR_DialogueNodeGraph nodeGraph;
 
+        [HideInInspector] public Rect rect = new Rect();
         [HideInInspector] public bool isDragging;
         [HideInInspector] public bool isSelected;
 
@@ -28,7 +28,83 @@ namespace MR
 
         public  void ProcessNodeEvents(Event currentEvent)
         {
+            switch(currentEvent.type)
+            {
+                case EventType.MouseDown:
+                    ProcessMouseDownEvent(currentEvent);
+                    break;
+                case EventType.MouseUp:
+                    ProcessMouseUpEvent(currentEvent);
+                    break;
+                case EventType.MouseDrag:
+                    ProcessMouseDragEvent(currentEvent);
+                    break;
+                default:
+                    break;
+            }
+        }
 
+        private void ProcessMouseDownEvent(Event currentEvent)
+        {
+            if(currentEvent.button == 0)
+            {
+                ProcessLeftMouseDownEvent(currentEvent);
+            }
+            else if(currentEvent.button == 1)
+            {
+                ProcessRightMouseDownEvent(currentEvent);
+            }
+        }
+
+        private void ProcessLeftMouseDownEvent(Event currentEvent)
+        {
+            OnNodeLeftClick();
+        }
+
+        private void ProcessRightMouseDownEvent(Event currentEvent)
+        {
+            nodeGraph.SetNodeToDrawLineFromAndLinePosition(this, currentEvent.mousePosition);
+        }
+
+        private void ProcessMouseUpEvent(Event currentEvent)
+        {
+            if(currentEvent.button == 0)
+            {
+                ProcessLeftMouseUpEvent(currentEvent);
+            }
+        }
+
+        private void ProcessLeftMouseUpEvent(Event currentEvent)
+        {
+            isDragging = false;
+        }
+
+        private void ProcessMouseDragEvent(Event currentEvent)
+        {
+            if(currentEvent.button == 0)
+            {
+                ProcessLeftMouseDragEvent(currentEvent);
+            }
+        }
+
+        private void ProcessLeftMouseDragEvent(Event currentEvent)
+        {
+            isDragging = true;
+            DragNode(currentEvent.delta);
+            GUI.changed = true;
+        }
+
+        public void OnNodeLeftClick()
+        {
+            Selection.activeObject = this;
+            if(isSelected)
+            {
+                isSelected = false;
+            }
+            else
+            {
+                isSelected = true;
+            }
         }
 
         public void DragNode(Vector2 delta)
