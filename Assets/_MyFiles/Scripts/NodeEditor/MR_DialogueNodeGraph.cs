@@ -7,7 +7,7 @@ namespace MR
     [CreateAssetMenu(menuName = "Scriptable Objects/Nodes/Node Graph", fileName = "New Node Graph")]
     public class MR_DialogueNodeGraph : ScriptableObject
     {
-        [SerializeField] List <MR_Node> nodeList = new List<MR_Node>();
+        public List <MR_Node> nodesList = new List<MR_Node>();
 
         [SerializeField][HideInInspector] MR_Node nodeToDrawLine = null;
         [SerializeField][HideInInspector] Vector2 linePosition = Vector2.zero;
@@ -20,7 +20,7 @@ namespace MR
 
         public void DragAllSelectedNodes(Vector2 delta)
         {
-            foreach (var node in nodeList)
+            foreach (var node in nodesList)
             {
                 if (node.isSelected)
                 {
@@ -33,7 +33,7 @@ namespace MR
         {
             int amount = 0;
 
-            foreach (MR_Node node in nodeList)
+            foreach (MR_Node node in nodesList)
             {
                 if (node.isSelected)
                 {

@@ -4,18 +4,12 @@ using UnityEngine;
 
 namespace MR
 {
-    public class MR_SentenceNode : MonoBehaviour
+    public class MR_SentenceNode : MR_Node
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        [SerializeField] private MR_Sentence sentence;
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+        [Space(10)]
+        public MR_Node parentNode;
+        public MR_Node childNode;
     }
 }

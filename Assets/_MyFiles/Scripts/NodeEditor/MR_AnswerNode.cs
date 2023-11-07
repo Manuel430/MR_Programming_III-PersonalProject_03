@@ -58,6 +58,42 @@ namespace MR
             EditorGUILayout.EndHorizontal();
         }
 
+        public override bool AddToParentConnectedNode(MR_Node nodeToAdd)
+        {
+            if(nodeToAdd.GetType() == typeof(MR_SentenceNode))
+            {
+                 parentSentenceNode = (MR_SentenceNode)nodeToAdd;
 
+                return true;
+            }
+
+            return false;
+        }
+
+        public override bool AddToChildConnectedNode(MR_Node nodeToAdd)
+        {
+            MR_SentenceNode sentenceNodeToAdd;
+            
+            if(nodeToAdd.GetType() != typeof(MR_AnswerNode))
+            {
+                sentenceNodeToAdd = (MR_SentenceNode)nodeToAdd;
+            }
+            else
+            {
+                return false;
+            }
+
+            for(int i = 0; i < amountOfAnswers; i++)
+            {
+                if (childSentenceNode[i] == null && sentenceNodeToAdd.parentNode == null)
+                {
+                    childSentenceNode[i] = (MR_SentenceNode)nodeToAdd;
+
+                    return true;
+                }
+            }
+
+            return false;
+        }
     }
 }
