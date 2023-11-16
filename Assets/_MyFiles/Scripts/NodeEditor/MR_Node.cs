@@ -7,8 +7,8 @@ namespace MR
 {
     public class MR_Node : ScriptableObject
     {
-        [SerializeField][HideInInspector] List<MR_Node> connectedNodesList;
-        [SerializeField][HideInInspector] MR_DialogueNodeGraph nodeGraph;
+        [HideInInspector] public List<MR_Node> connectedNodesList;
+        [HideInInspector] public MR_DialogueNodeGraph nodeGraph;
 
         [HideInInspector] public Rect rect = new Rect();
         [HideInInspector] public bool isDragging;

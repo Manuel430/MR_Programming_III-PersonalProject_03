@@ -4,18 +4,18 @@ using UnityEngine;
 
 namespace MR
 {
-    public class MR_Sentence : MonoBehaviour
+    [System.Serializable]
+    public struct MR_Sentence
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        public string characterName;
+        public string text;
+        public Sprite characterSprite;
 
-        // Update is called once per frame
-        void Update()
+        public MR_Sentence(string setCharacterName, string setText)
         {
-        
+            characterSprite = null;
+            characterName = setCharacterName;
+            text = setText;
         }
     }
 }

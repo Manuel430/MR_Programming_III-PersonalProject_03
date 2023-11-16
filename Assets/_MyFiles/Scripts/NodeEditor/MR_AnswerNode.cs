@@ -9,10 +9,10 @@ namespace MR
     {
         private const int amountOfAnswers = 4;
 
-        [SerializeField] List<string> answers = new List<string>();
+        public List<string> answers = new List<string>();
         
-        [SerializeField] MR_SentenceNode parentSentenceNode;
-        [SerializeField] MR_SentenceNode[] childSentenceNode;
+        public MR_SentenceNode parentSentenceNode;
+        public MR_SentenceNode[] childSentenceNodes;
 
         private const float lableFieldSpace = 15f;
         private const float textFieldWidth = 120f;
@@ -24,7 +24,7 @@ namespace MR
         {
             base.Initialize(setRect, nodeName, setNodeGraph);
             
-            childSentenceNode = new MR_SentenceNode[amountOfAnswers];
+            childSentenceNodes = new MR_SentenceNode[amountOfAnswers];
 
             for (int i = 0; i < amountOfAnswers; i++)
             {
@@ -85,9 +85,9 @@ namespace MR
 
             for(int i = 0; i < amountOfAnswers; i++)
             {
-                if (childSentenceNode[i] == null && sentenceNodeToAdd.parentNode == null)
+                if (childSentenceNodes[i] == null && sentenceNodeToAdd.parentNode == null)
                 {
-                    childSentenceNode[i] = (MR_SentenceNode)nodeToAdd;
+                    childSentenceNodes[i] = (MR_SentenceNode)nodeToAdd;
 
                     return true;
                 }

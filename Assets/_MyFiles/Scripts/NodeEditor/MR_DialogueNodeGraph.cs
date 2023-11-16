@@ -9,12 +9,12 @@ namespace MR
     {
         public List <MR_Node> nodesList = new List<MR_Node>();
 
-        [SerializeField][HideInInspector] MR_Node nodeToDrawLine = null;
-        [SerializeField][HideInInspector] Vector2 linePosition = Vector2.zero;
+        [HideInInspector] public MR_Node nodeToDrawLineFrom = null;
+        [HideInInspector] public Vector2 linePosition = Vector2.zero;
 
         public void  SetNodeToDrawLineFromAndLinePosition(MR_Node setNodeDraw, Vector2 setLinePosition)
         {
-            nodeToDrawLine = setNodeDraw;
+            nodeToDrawLineFrom = setNodeDraw;
             linePosition = setLinePosition;
         }
 
