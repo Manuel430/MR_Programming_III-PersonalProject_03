@@ -59,5 +59,66 @@ namespace MR
 
             GUILayout.EndArea();
         }
+
+        public override bool AddToChildConnectedNode(MR_Node nodeToAdd)
+        {
+            MR_SentenceNode sentenceNodeToAdd;
+
+            if(nodeToAdd.GetType() == typeof(MR_SentenceNode))
+            {
+                nodeToAdd = (MR_SentenceNode)nodeToAdd;
+
+                if(nodeToAdd == this)
+                {
+                    return false;
+                }
+            }
+
+            if(nodeToAdd.GetType() == typeof(MR_SentenceNode))
+            {
+                sentenceNodeToAdd = (MR_SentenceNode)nodeToAdd;
+
+                if(sentenceNodeToAdd != null && sentenceNodeToAdd.childNode == this)
+                {
+                    return false;
+                }
+            }
+
+            childNode = nodeToAdd;
+            return true;
+        }
+
+        public override bool AddToParentConnectedNode(MR_Node nodeToAdd)
+        {
+            MR_SentenceNode sentenceNodeToAdd;
+
+            if(nodeToAdd.GetType() == typeof(MR_SentenceNode))
+            {
+                nodeToAdd = (MR_SentenceNode)nodeToAdd;
+
+                if(nodeToAdd == this)
+                {
+                    return false;
+                }
+            }
+
+            parentNode = nodeToAdd;
+
+            if(nodeToAdd.GetType() == typeof(MR_SentenceNode))
+            {
+                sentenceNodeToAdd = (MR_SentenceNode)nodeToAdd;
+
+                if(sentenceNodeToAdd.childNode == this)
+                {
+                    return false;
+                }
+                else
+                {
+                    parentNode = null;
+                }
+            }
+
+            return true;
+        }
     }
 }

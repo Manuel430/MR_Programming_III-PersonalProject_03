@@ -24,7 +24,7 @@ namespace MR
 
         public void AssignDialogueNameTextAndSprite(string name, Sprite sprite)
         {
-            dialogueText.text = name;
+            dialogueNameText.text = name;
 
             if(sprite == null)
             {

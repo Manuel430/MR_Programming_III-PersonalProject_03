@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Callbacks;
 using System.Runtime.CompilerServices;
+using UnityEditor.Experimental.GraphView;
 
 namespace MR
 {
@@ -187,14 +188,15 @@ namespace MR
             graphOffset += graphDrag * 0.5f;
 
             Vector3 gridOffset = new Vector3(graphOffset.x % gridSize, graphOffset.y % gridSize, 0);
-            
+
             for (int i = 0; i < verticalLineCount; i++)
             {
                 Handles.DrawLine(new Vector3(gridSize * i, -gridSize, 0) + gridOffset, new Vector3(gridSize * i, position.height + gridSize, 0f) + gridOffset);
             }
-            for(int j = 0; j < horizontalLineCount; j++)
+
+            for (int j = 0; j < horizontalLineCount; j++)
             {
-                Handles.DrawLine(new Vector3(gridSize * j, -gridSize, 0) + gridOffset, new Vector3(gridSize * j, position.width + gridSize, 0f) + gridOffset);
+                Handles.DrawLine(new Vector3(-gridSize, gridSize * j, 0) + gridOffset, new Vector3(position.width + gridSize, gridSize * j, 0f) + gridOffset);
             }
 
             Handles.color = Color.white;
@@ -329,7 +331,7 @@ namespace MR
             {
                 ProcessLeftMouseDragEvent(currentEvent);
             }
-            else if(currentEvent.button == 1)
+            else if (currentEvent.button == 1)
             {
                 ProcessRightMouseDragEvent(currentEvent);
             }
@@ -351,7 +353,7 @@ namespace MR
 
         private void ProcessRightMouseDragEvent(Event currentEvent)
         {
-            if(currentNodeGraph.nodeToDrawLineFrom != null)
+            if (currentNodeGraph.nodeToDrawLineFrom != null)
             {
                 DragConnectingLine(currentEvent.delta);
                 GUI.changed = true;
@@ -369,7 +371,7 @@ namespace MR
             {
                 MR_Node node = GetHighlightedNode(currentEvent.mousePosition);
 
-                if(node != null)
+                if (node != null)
                 {
                     currentNodeGraph.nodeToDrawLineFrom.AddToChildConnectedNode(node);
                     node.AddToParentConnectedNode(currentNodeGraph.nodeToDrawLineFrom);
@@ -392,7 +394,7 @@ namespace MR
             {
                 foreach (MR_Node node in currentNodeGraph.nodesList)
                 {
-                    if(node.isSelected)
+                    if (node.isSelected)
                     {
                         node.isSelected = false;
                     }
@@ -404,7 +406,7 @@ namespace MR
 
         private void SelectNodesBySelectionRect(Vector2 mousePosition)
         {
-            if(!isScrollWheelDragging)
+            if (!isScrollWheelDragging)
             {
                 return;
             }
@@ -413,6 +415,7 @@ namespace MR
                 mousePosition.x - mouseScrollClickPosition.x, mousePosition.y - mouseScrollClickPosition.y);
 
             EditorGUI.DrawRect(selectionRect, new Color(0, 0, 0, 0.5f));
+
 
             foreach (MR_Node node in currentNodeGraph.nodesList)
             {
@@ -425,7 +428,7 @@ namespace MR
 
         private MR_Node GetHighlightedNode(Vector2 mousePosition)
         {
-            if(currentNodeGraph.nodesList.Count == 0)
+            if (currentNodeGraph.nodesList.Count == 0)
             {
                 return null;
             }
@@ -449,7 +452,7 @@ namespace MR
             contextMenu.AddItem(new GUIContent("Create Answer Node"), false, CreateAnswerNode, mousePosition);
             contextMenu.AddSeparator("");
             contextMenu.AddItem(new GUIContent("Select All Nodes"), false, SelectAllNodes, mousePosition);
-            contextMenu.AddItem(new GUIContent("Remove Selected Node"), false, RemoveSelectedNodes, mousePosition);
+            contextMenu.AddItem(new GUIContent("Remove Selected Nodes"), false, RemoveSelectedNodes, mousePosition);
             contextMenu.ShowAsContext();
         }
 
@@ -489,11 +492,11 @@ namespace MR
 
             while (nodeDeletionQueue.Count > 0)
             {
-                MR_Node nodeToDelete = nodeDeletionQueue.Dequeue();
+                MR_Node nodeTodelete = nodeDeletionQueue.Dequeue();
 
-                currentNode.connectedNodesList.Remove(nodeToDelete);
+                currentNodeGraph.nodesList.Remove(nodeTodelete);
 
-                DestroyImmediate(nodeToDelete, true);
+                DestroyImmediate(nodeTodelete, true);
                 AssetDatabase.SaveAssets();
             }
         }
@@ -504,6 +507,8 @@ namespace MR
 
             currentNodeGraph.nodesList.Add(node);
 
+            node.Initialize(new Rect(mousePosition, new Vector2(nodeWidth, nodeHeight)), nodeName, currentNodeGraph);
+
             AssetDatabase.AddObjectToAsset(node, currentNodeGraph);
             AssetDatabase.SaveAssets();
         }
@@ -512,7 +517,7 @@ namespace MR
         {
             MR_DialogueNodeGraph nodeGraph = Selection.activeObject as MR_DialogueNodeGraph;
 
-            if(nodeGraph != null)
+            if (nodeGraph != null)
             {
                 currentNodeGraph = nodeGraph;
                 GUI.changed = true;

@@ -6,16 +6,13 @@ namespace MR
 {
     public class MR_TestDialogue : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        [SerializeField] private MR_DialogueBehavior dialogueBehaviour;
+        [SerializeField] private MR_DialogueNodeGraph dialogueGraph;
 
-        // Update is called once per frame
-        void Update()
+        private void OnEnable()
         {
-        
+
+            dialogueBehaviour.StartDialogue(dialogueGraph);
         }
     }
 }
