@@ -17,6 +17,7 @@ namespace MR
 
         private MR_DialogueNodeGraph currentNodeGraph;
         private MR_Node currentNode;
+        [SerializeField] MR_NPCDialogueScript npcDialogue;
 
         public static event Action OnSentenceNodeActive;
         public static event Action OnDialogueSentenceEnd;
@@ -26,7 +27,6 @@ namespace MR
         public static event Action<int> OnAnswerNodeActiveWithParameter;
         public static event Action<int, string> OnAnswerNodeSetUp;
         public static event Action<char> OnDialogueTextCharWrote;
-
         public void StartDialogue(MR_DialogueNodeGraph dialogueNodeGraph)
         {
             if(dialogueNodeGraph.nodesList == null)
@@ -123,10 +123,12 @@ namespace MR
                 {
                     currentNode = sentenceNode.childNode;
                     HandleDialogGraphCurrentNode(currentNode);
+                    npcDialogue.SetCutsceneAndInteraction(false);
                 }
                 else
                 {
                     onDialogueFinished?.Invoke();
+                    npcDialogue.SetCutsceneAndInteraction(true);
                 }
             }
         }

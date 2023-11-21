@@ -10,6 +10,7 @@ namespace MR
     public class MR_NPCDialogueScript : MonoBehaviour
     {
         [SerializeField] bool talkedTo;
+        [SerializeField] bool inCutscene;
         [SerializeField] GameObject interactionKey;
 
         [Header("ReputationPoints")]
@@ -36,10 +37,18 @@ namespace MR
         private void Awake()
         {
             talkedTo = false;
+            interactionKey.SetActive(false);
 
             playerInputs = new PlayerInputsScript();
             playerInputs.Player.Enable();
-            playerInputs.Player.Interact.performed += Interact;
+        }
+
+        public void SetCutsceneAndInteraction(bool setActive)
+        {
+            player.SetCutscene(!setActive);
+            interactionKey.SetActive(setActive);
+            inCutscene = !setActive;
+
         }
 
         public void OnTriggerEnter(Collider other)
@@ -50,6 +59,7 @@ namespace MR
             }
 
             interactionKey.SetActive(true);
+            playerInputs.Player.Interact.performed += Interact;
         }
 
         public void OnTriggerExit(Collider other)
@@ -60,20 +70,21 @@ namespace MR
             }
 
             interactionKey.SetActive(false);
+            playerInputs.Player.Interact.performed -= Interact;
         }
 
         public void Interact(InputAction.CallbackContext context)
         {
-            if (interactionKey.gameObject == true)
+            if (interactionKey.gameObject == true && inCutscene == false)
             {
-                Debug.Log("Test");
-/*                StartDialogue();
+                inCutscene = true;
                 interactionKey.SetActive(false);
-                player.SetCutscene(true);*/
+                player.SetCutscene(true);
+                DialougeSelection();
             }
         }
 
-        private void StartDialogue()
+        private void DialougeSelection()
         {
             if (reputationPoints.GetReputationPoints() > mediumPoints || reputationPoints.GetReputationPoints() <= highPoints)
             {
@@ -111,8 +122,6 @@ namespace MR
                     dialogueBehavior.StartDialogue(lowTalkedTo);
                 }
             }
-
-            player.SetCutscene(false);
         }
 
     }
