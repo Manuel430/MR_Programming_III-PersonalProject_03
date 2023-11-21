@@ -16,6 +16,11 @@ namespace MR
             reputationPointsText.text = reputationPoints.ToString();
         }
 
+        private void Update()
+        {
+            reputationPointsText.text = reputationPoints.ToString();
+        }
+
         public int GetReputationPoints()
         {
             return reputationPoints;

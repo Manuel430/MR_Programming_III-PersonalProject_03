@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 namespace MR
 {
@@ -27,6 +28,22 @@ namespace MR
         public static event Action<int> OnAnswerNodeActiveWithParameter;
         public static event Action<int, string> OnAnswerNodeSetUp;
         public static event Action<char> OnDialogueTextCharWrote;
+
+        PlayerInputsScript playerInputsScript;
+        bool nextDialogPressed = false;
+        private void Awake()
+        {
+            playerInputsScript = new PlayerInputsScript();
+            playerInputsScript.Enable();
+            playerInputsScript.Player.NextDialog.performed += NextDialogSentence;
+            playerInputsScript.Player.NextDialog.canceled += NextDialogSentence;
+        }
+
+        private void NextDialogSentence(InputAction.CallbackContext context)
+        {
+            nextDialogPressed = !nextDialogPressed;
+        }
+
         public void StartDialogue(MR_DialogueNodeGraph dialogueNodeGraph)
         {
             if(dialogueNodeGraph.nodesList == null)
@@ -107,10 +124,15 @@ namespace MR
                 OnDialogueTextCharWrote?.Invoke(textChar);
             }
 
-            yield return new WaitUntil(() => Input.GetKeyDown(nextSentenceKeyCode));
+            yield return new WaitUntil(CheckNestSentenceKeyPress);
 
             OnDialogueSentenceEnd?.Invoke();
             CheckForDialogueNextNode();
+        }
+
+        private bool CheckNestSentenceKeyPress()
+        {
+            return nextDialogPressed;
         }
 
         private void CheckForDialogueNextNode()

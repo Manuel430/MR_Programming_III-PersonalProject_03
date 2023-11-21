@@ -80,6 +80,15 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NextDialog"",
+                    ""type"": ""Button"",
+                    ""id"": ""2e74c0a0-1c31-42a1-a5ab-e889935f1455"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -247,6 +256,17 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
                     ""action"": ""EndDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9a54bd4d-4dc3-479e-9df1-af3885b595eb"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextDialog"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -261,6 +281,7 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
         m_Player_EndDialogue = m_Player.FindAction("EndDialogue", throwIfNotFound: true);
+        m_Player_NextDialog = m_Player.FindAction("NextDialog", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -328,6 +349,7 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Pause;
     private readonly InputAction m_Player_Interact;
     private readonly InputAction m_Player_EndDialogue;
+    private readonly InputAction m_Player_NextDialog;
     public struct PlayerActions
     {
         private @PlayerInputsScript m_Wrapper;
@@ -338,6 +360,7 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
         public InputAction @Pause => m_Wrapper.m_Player_Pause;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
         public InputAction @EndDialogue => m_Wrapper.m_Player_EndDialogue;
+        public InputAction @NextDialog => m_Wrapper.m_Player_NextDialog;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -365,6 +388,9 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
             @EndDialogue.started += instance.OnEndDialogue;
             @EndDialogue.performed += instance.OnEndDialogue;
             @EndDialogue.canceled += instance.OnEndDialogue;
+            @NextDialog.started += instance.OnNextDialog;
+            @NextDialog.performed += instance.OnNextDialog;
+            @NextDialog.canceled += instance.OnNextDialog;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -387,6 +413,9 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
             @EndDialogue.started -= instance.OnEndDialogue;
             @EndDialogue.performed -= instance.OnEndDialogue;
             @EndDialogue.canceled -= instance.OnEndDialogue;
+            @NextDialog.started -= instance.OnNextDialog;
+            @NextDialog.performed -= instance.OnNextDialog;
+            @NextDialog.canceled -= instance.OnNextDialog;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -412,5 +441,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
         void OnPause(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
         void OnEndDialogue(InputAction.CallbackContext context);
+        void OnNextDialog(InputAction.CallbackContext context);
     }
 }

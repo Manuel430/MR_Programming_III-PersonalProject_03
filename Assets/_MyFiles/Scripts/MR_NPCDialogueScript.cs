@@ -17,10 +17,12 @@ namespace MR
         [SerializeField] float highPoints = 100;
         [SerializeField] float mediumPoints;
         [SerializeField] float lowPoints;
+        [SerializeField] float reputation;
 
         [Header("OutsideScripts")]
         [SerializeField] MR_DialogueBehavior dialogueBehavior;
         [SerializeField] MR_ReputationScript reputationPoints;
+
         [SerializeField] PlayerInputsScript playerInputs;
         [SerializeField] MR_PlayerMovementScript player;
 
@@ -43,12 +45,22 @@ namespace MR
             playerInputs.Player.Enable();
         }
 
+        public void Update()
+        {
+            reputation = reputationPoints.GetReputationPoints();
+        }
+
         public void SetCutsceneAndInteraction(bool setActive)
         {
             player.SetCutscene(!setActive);
             interactionKey.SetActive(setActive);
             inCutscene = !setActive;
 
+        }
+
+        public bool GetCutscene()
+        {
+            return inCutscene;
         }
 
         public void OnTriggerEnter(Collider other)
@@ -86,7 +98,7 @@ namespace MR
 
         private void DialougeSelection()
         {
-            if (reputationPoints.GetReputationPoints() > mediumPoints || reputationPoints.GetReputationPoints() <= highPoints)
+            if (reputation >= highPoints)
             {
                 if (!talkedTo)
                 {
@@ -98,7 +110,7 @@ namespace MR
                     dialogueBehavior.StartDialogue(highTalkedTo);
                 }
             }
-            else if (reputationPoints.GetReputationPoints() > lowPoints || reputationPoints.GetReputationPoints() <= mediumPoints)
+            else if (reputation >= mediumPoints && reputation < highPoints)
             {
                 if (!talkedTo)
                 {
@@ -110,7 +122,7 @@ namespace MR
                     dialogueBehavior.StartDialogue(mediumTalkedTo);
                 }
             }
-            else if (reputationPoints.GetReputationPoints() <= lowPoints)
+            else if (reputation >= lowPoints && reputation < mediumPoints || reputation < lowPoints)
             {
                 if (!talkedTo)
                 {

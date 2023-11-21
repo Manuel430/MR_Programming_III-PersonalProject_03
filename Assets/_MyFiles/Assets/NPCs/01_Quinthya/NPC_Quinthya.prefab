@@ -52,7 +52,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 3
+  m_Radius: 2
   m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &4649638103372712984
 MonoBehaviour:
@@ -66,17 +66,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca674db28c879e347895b0cd5d9955a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredPoints: 25
   talkedTo: 0
+  inCutscene: 0
+  interactionKey: {fileID: 0}
+  highPoints: 80
+  mediumPoints: 40
+  lowPoints: 20
+  reputation: 0
   dialogueBehavior: {fileID: 0}
   reputationPoints: {fileID: 0}
-  worstReputation: {fileID: 0}
-  lowReputation: {fileID: 0}
-  mediumReputation: {fileID: 0}
-  highReputation: {fileID: 0}
-  lowTalkedTo: {fileID: 0}
-  mediumTalkedTo: {fileID: 0}
-  highTalkedTo: {fileID: 0}
+  player: {fileID: 0}
+  lowReputation: {fileID: 11400000, guid: abbbaf79caf5078409fe3048a6f3b578, type: 2}
+  mediumReputation: {fileID: 11400000, guid: f1a999fb982756a469d85fd989127fcc, type: 2}
+  highReputation: {fileID: 11400000, guid: e72d86da794d31348a9a6a4ab9a885d0, type: 2}
+  lowTalkedTo: {fileID: 11400000, guid: ecc33bd97edd9434ab89a649272b91fa, type: 2}
+  mediumTalkedTo: {fileID: 11400000, guid: 194f5c98c2bb7404a911ce0a1cb33a93, type: 2}
+  highTalkedTo: {fileID: 11400000, guid: d10802d63732b1c41a7a990e20984bd0, type: 2}
 --- !u!1 &2155050077580609762
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,6 +176,7 @@ GameObject:
   - component: {fileID: 4553489403938518388}
   - component: {fileID: 7227487345624606940}
   - component: {fileID: 4996266873081047014}
+  - component: {fileID: 8055173840873440857}
   m_Layer: 0
   m_Name: NPC_Quinthya
   m_TagString: Untagged
@@ -194,6 +200,7 @@ Transform:
   - {fileID: 6984117247908049927}
   - {fileID: 4966563522974504337}
   - {fileID: 2986223753519841368}
+  - {fileID: 689621977679124406}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &7227487345624606940
@@ -243,9 +250,62 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
+--- !u!195 &8055173840873440857
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240641616909032738}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!1 &5168326859407611641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689621977679124406}
+  m_Layer: 0
+  m_Name: CenterPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689621977679124406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5168326859407611641}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4553489403938518388}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5207645952706208620
 GameObject:
   m_ObjectHideFlags: 0
