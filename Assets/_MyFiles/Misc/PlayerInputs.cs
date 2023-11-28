@@ -73,15 +73,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""EndDialogue"",
-                    ""type"": ""Button"",
-                    ""id"": ""fd8d8797-d228-4bd4-915d-948a29e9b3f0"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""NextDialog"",
                     ""type"": ""Button"",
                     ""id"": ""2e74c0a0-1c31-42a1-a5ab-e889935f1455"",
@@ -248,19 +239,8 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""d8fab28f-ce39-493e-a416-307a49c3d8f6"",
-                    ""path"": ""<Keyboard>/enter"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""EndDialogue"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""9a54bd4d-4dc3-479e-9df1-af3885b595eb"",
-                    ""path"": ""<Keyboard>/enter"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -280,7 +260,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
-        m_Player_EndDialogue = m_Player.FindAction("EndDialogue", throwIfNotFound: true);
         m_Player_NextDialog = m_Player.FindAction("NextDialog", throwIfNotFound: true);
     }
 
@@ -348,7 +327,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Sprint;
     private readonly InputAction m_Player_Pause;
     private readonly InputAction m_Player_Interact;
-    private readonly InputAction m_Player_EndDialogue;
     private readonly InputAction m_Player_NextDialog;
     public struct PlayerActions
     {
@@ -359,7 +337,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
         public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
         public InputAction @Pause => m_Wrapper.m_Player_Pause;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
-        public InputAction @EndDialogue => m_Wrapper.m_Player_EndDialogue;
         public InputAction @NextDialog => m_Wrapper.m_Player_NextDialog;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
@@ -385,9 +362,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
-            @EndDialogue.started += instance.OnEndDialogue;
-            @EndDialogue.performed += instance.OnEndDialogue;
-            @EndDialogue.canceled += instance.OnEndDialogue;
             @NextDialog.started += instance.OnNextDialog;
             @NextDialog.performed += instance.OnNextDialog;
             @NextDialog.canceled += instance.OnNextDialog;
@@ -410,9 +384,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
-            @EndDialogue.started -= instance.OnEndDialogue;
-            @EndDialogue.performed -= instance.OnEndDialogue;
-            @EndDialogue.canceled -= instance.OnEndDialogue;
             @NextDialog.started -= instance.OnNextDialog;
             @NextDialog.performed -= instance.OnNextDialog;
             @NextDialog.canceled -= instance.OnNextDialog;
@@ -440,7 +411,6 @@ public partial class @PlayerInputsScript: IInputActionCollection2, IDisposable
         void OnSprint(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
-        void OnEndDialogue(InputAction.CallbackContext context);
         void OnNextDialog(InputAction.CallbackContext context);
     }
 }
