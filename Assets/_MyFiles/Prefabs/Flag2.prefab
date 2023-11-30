@@ -71,5 +71,58 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2198ba4f5cda7644ba054920f2bceb99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6953872870650004779}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2198ba4f5cda7644ba054920f2bceb99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7294972642272365973}
   m_SourcePrefab: {fileID: 100100000, guid: 2198ba4f5cda7644ba054920f2bceb99, type: 3}
+--- !u!1 &6311100436669147548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 2198ba4f5cda7644ba054920f2bceb99, type: 3}
+  m_PrefabInstance: {fileID: 6311100436669247292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6953872870650004779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6311100436669147548}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.38231313, y: 3.2482266, z: 0.9707109}
+  m_Center: {x: -0.048003852, y: 1.613383, z: -0.017995775}
+--- !u!65 &7294972642272365973
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6311100436669147548}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0106816, y: 0.24822664, z: 0.83246946}
+  m_Center: {x: 0.2661804, y: 0.113383055, z: -0.08711648}
