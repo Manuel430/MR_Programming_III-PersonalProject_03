@@ -8,6 +8,74 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319899325221451937, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c9263a265e9a644da8e1680fd64f839, type: 2}
+    - target: {fileID: 1471912136235134933, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471912136235134933, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471912136235134933, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471912136235134933, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471912136235134933, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowPoints
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highPoints
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: 41947df4040bfc64eac69c3029c8cdef, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: 30f92e12f4f806346aa32a7b9e67de6a, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumPoints
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: ff6234e2ed314b4468d28a75180315ff, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: 473e274878216e344921451d68a51a1c, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9cc5eef3f263145964ad9284d6233f, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: f7777ba17b014ea43a7bf2a9c53204ed, type: 2}
+    - target: {fileID: 3593924625671033444, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Radius
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593924625671033444, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Center.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4240641616909032738, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_Name
       value: NPC_Naitzu
@@ -88,6 +156,10 @@ PrefabInstance:
       propertyPath: mediumReputation
       value: 
       objectReference: {fileID: 11400000, guid: f7777ba17b014ea43a7bf2a9c53204ed, type: 2}
+    - target: {fileID: 4969138070523968755, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c9263a265e9a644da8e1680fd64f839, type: 2}
     - target: {fileID: 5595997387899696547, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -96,8 +168,23 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6608592991508605029, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: inCutscene
+      value: 
+      objectReference: {fileID: 7107232999899193606}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+--- !u!114 &7107232999899193606 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+  m_PrefabInstance: {fileID: 8919644530687473900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2d672242fadeda49bf06370e900c236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

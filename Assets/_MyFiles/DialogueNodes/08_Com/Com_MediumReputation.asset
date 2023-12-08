@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7656923618753584619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 467
+    y: 273
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: I'm Com, member of the Drill Force team! It isn't a large team, but I enjoy
+      my time there!
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: -6359747782382029521}
+  childNode: {fileID: -2727132871014463152}
+--- !u!114 &-7028464977233079108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 69
+    y: 271
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: Hey there, who are you?
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -6359747782382029521}
+--- !u!114 &-6462324629970217668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 889
+    y: 118
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: Oh, this? Well, I'm waiting for the concert to start! I came here early
+      so that I can have a spot. The guy with us? I don't know why he's here. Same
+      thing maybe?
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: -2727132871014463152}
+  childNode: {fileID: -3285182204194704717}
+--- !u!114 &-6359747782382029521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 270
+    y: 271
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Oh, me? I'm Primal Knight, but I prefer to be called as Primal. You?
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -7028464977233079108}
+  childNode: {fileID: -7656923618753584619}
+--- !u!114 &-6279258217920617365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1292
+    y: 101
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Yes!
+  - No.
+  - 
+  - 
+  parentSentenceNode: {fileID: -3285182204194704717}
+  childSentenceNodes:
+  - {fileID: -5265033265759915588}
+  - {fileID: 410918476862797666}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-5265033265759915588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1523
+    y: 45
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: Sweet! You can continue exploring around if you want, I'll save a spot
+      for you. You do seem like a cool person. Can we be friends?
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: -6279258217920617365}
+  childNode: {fileID: 0}
+--- !u!114 &-3881102563540062632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1913
+    y: 207
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: '*Sigh* I don''t know where I''m going with this, just have a good day.'
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: 2217628686553929119}
+  childNode: {fileID: 0}
+--- !u!114 &-3285182204194704717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1093
+    y: 118
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: What about you? Waitng for the party too?
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: -6462324629970217668}
+  childNode: {fileID: -6279258217920617365}
+--- !u!114 &-3004955475917511630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1088
+    y: 421
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: If you want to learn more of that, my boss, Cyber, can help you with that.
+      Me? I'm gonna take this time to relax and wait for the party.
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: 2799187719932983952}
+  childNode: {fileID: 0}
+--- !u!114 &-2727132871014463152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 666
+    y: 258
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Ask about the party]'
+  - '[Leave]'
+  - '[Ask about Drill Force]'
+  - 
+  parentSentenceNode: {fileID: -7656923618753584619}
+  childSentenceNodes:
+  - {fileID: -6462324629970217668}
+  - {fileID: 8043306943562418950}
+  - {fileID: 2799187719932983952}
+  - {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: Com_MediumReputation
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -7028464977233079108}
+  - {fileID: -6359747782382029521}
+  - {fileID: -7656923618753584619}
+  - {fileID: -2727132871014463152}
+  - {fileID: -6462324629970217668}
+  - {fileID: 8043306943562418950}
+  - {fileID: 2799187719932983952}
+  - {fileID: -3285182204194704717}
+  - {fileID: -6279258217920617365}
+  - {fileID: -5265033265759915588}
+  - {fileID: 410918476862797666}
+  - {fileID: -3004955475917511630}
+  - {fileID: 2217628686553929119}
+  - {fileID: -3881102563540062632}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &410918476862797666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1515
+    y: 200
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: Oh, well, what are you even doing here? Are you here for me?
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: -6279258217920617365}
+  childNode: {fileID: 2217628686553929119}
+--- !u!114 &2217628686553929119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1717
+    y: 202
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: I'm flattered, but I'm already into Quinthya, so you better find someone
+      else to watch. Or not.. cause, you know... stalking is bad.
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: 410918476862797666}
+  childNode: {fileID: -3881102563540062632}
+--- !u!114 &2799187719932983952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 894
+    y: 419
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: Drill Force? It's a team where we do stuff to help others.
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: -2727132871014463152}
+  childNode: {fileID: -3004955475917511630}
+--- !u!114 &8043306943562418950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 891
+    y: 270
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Com
+    text: That's it? Bummer, but I hope you have a good day!
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
+  parentNode: {fileID: -2727132871014463152}
+  childNode: {fileID: 0}

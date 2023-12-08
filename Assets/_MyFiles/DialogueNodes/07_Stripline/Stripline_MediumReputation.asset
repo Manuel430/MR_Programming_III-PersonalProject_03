@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8405875271633899104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 939
+    y: 369
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Certainly, sir. What is it that you need help with?
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 755329030973456124}
+  childNode: {fileID: 7295771860377181353}
+--- !u!114 &-8367113752315831478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 937
+    y: 164
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Way to introduce yourself, Primal. It's just a thing I say to almost everyone.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 755329030973456124}
+  childNode: {fileID: -1635789244363745335}
+--- !u!114 &-6144619728173143584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1939
+    y: -130
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: I just wanted to see-.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -2122088623607461776}
+  childNode: {fileID: 7972277087851655671}
+--- !u!114 &-4957308256063126688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2436
+    y: -345
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Thank you, ma'am.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 3768618769096250251}
+  childNode: {fileID: 0}
+--- !u!114 &-3008685072992655169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1572
+    y: 185
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Oh, Primal, I didn't realize you were the one talking to me. Of course
+      I can give you the report.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 7295771860377181353}
+  childNode: {fileID: 8325348338689651950}
+--- !u!114 &-2552222247817572058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1566
+    y: 446
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: I appreciate the invite, but I don't tend to party. Just not my style.
+      Hopefully it's yours, though.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 7295771860377181353}
+  childNode: {fileID: 0}
+--- !u!114 &-2421284975896701463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1575
+    y: 324
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Hey, don't be mean to Moc-Tag. He means alot to me as he's my partner in
+      crime. I focus on helping the people here while he attacks the people out there.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 7295771860377181353}
+  childNode: {fileID: 1350805100110504474}
+--- !u!114 &-2285688713881453251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1561
+    y: 584
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Oh, ha ha. Very funny, Primal. Soooo funny. Now take your funny servoes
+      elsewhere.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 7295771860377181353}
+  childNode: {fileID: 0}
+--- !u!114 &-2122088623607461776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1684
+    y: -138
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Well.. Then why did you even bother me?
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 662665058356635382}
+  childNode: {fileID: -6144619728173143584}
+--- !u!114 &-1751356042070319507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1914
+    y: -326
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Thanks, Stripline, I guess that's one step closer to figuring it out.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 8325348338689651950}
+  childNode: {fileID: 3768618769096250251}
+--- !u!114 &-1635789244363745335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1174
+    y: 155
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Ah, yeah, I see. I recommend that you either remove that speech or change
+      it up.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -8367113752315831478}
+  childNode: {fileID: 9103313006885035977}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: Stripline_MediumReputation
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 9016380051362367952}
+  - {fileID: 755329030973456124}
+  - {fileID: 3376498523159043813}
+  - {fileID: -8367113752315831478}
+  - {fileID: -8405875271633899104}
+  - {fileID: 662665058356635382}
+  - {fileID: 8325348338689651950}
+  - {fileID: -1751356042070319507}
+  - {fileID: 3768618769096250251}
+  - {fileID: -4957308256063126688}
+  - {fileID: -2122088623607461776}
+  - {fileID: -6144619728173143584}
+  - {fileID: 7972277087851655671}
+  - {fileID: 9017688751708601886}
+  - {fileID: -1635789244363745335}
+  - {fileID: 9103313006885035977}
+  - {fileID: 7295771860377181353}
+  - {fileID: -3008685072992655169}
+  - {fileID: -2421284975896701463}
+  - {fileID: -2552222247817572058}
+  - {fileID: -2285688713881453251}
+  - {fileID: 1350805100110504474}
+  - {fileID: 2271081122790881379}
+  - {fileID: 1684728098329069503}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &662665058356635382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1345
+    y: -168
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Yes please.
+  - Nah, I'm good.
+  - 
+  - 
+  parentSentenceNode: {fileID: 9103313006885035977}
+  childSentenceNodes:
+  - {fileID: 8325348338689651950}
+  - {fileID: -2122088623607461776}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &755329030973456124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 642
+    y: 162
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - It's me, Primal.
+  - The heck are you saying?
+  - I need help.
+  - 
+  parentSentenceNode: {fileID: 9016380051362367952}
+  childSentenceNodes:
+  - {fileID: 3376498523159043813}
+  - {fileID: -8367113752315831478}
+  - {fileID: -8405875271633899104}
+  - {fileID: 0}
+--- !u!114 &1350805100110504474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1808
+    y: 290
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Oh, he does sound pretty cool, sorry.
+  - He could still be dangerous!
+  - 
+  - 
+  parentSentenceNode: {fileID: -2421284975896701463}
+  childSentenceNodes:
+  - {fileID: 2271081122790881379}
+  - {fileID: 1684728098329069503}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &1684728098329069503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2090
+    y: 290
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Wow, I can't believe you would say that. I think our talk is done if you
+      won't respect my friend.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 1350805100110504474}
+  childNode: {fileID: 0}
+--- !u!114 &2271081122790881379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2068
+    y: 145
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: It's okay, just please be careful about what you think and say to others.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 1350805100110504474}
+  childNode: {fileID: 0}
+--- !u!114 &3376498523159043813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 935
+    y: -31
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Primal? Sorry, I'm so use to saying that line that I couldn't recognize
+      you. Do you need your report on your damaged eye?
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 755329030973456124}
+  childNode: {fileID: 662665058356635382}
+--- !u!114 &3768618769096250251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2175
+    y: -342
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: I understand it sound small, but each step is important to getting closer
+      to who did it. Rest assure that we will find them and bring them to justice.
+      In the meantime, just continue to walk around, I'll let you know more if we
+      find more info.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: -1751356042070319507}
+  childNode: {fileID: -4957308256063126688}
+--- !u!114 &7295771860377181353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1194
+    y: 381
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - I need my report for my damaged eye.
+  - The red guy looks super dangerous and should be put away.
+  - There's a party that's going on, and we need someone to watch over it
+  - A girl I know has gone mad and forgot about me!
+  parentSentenceNode: {fileID: -8405875271633899104}
+  childSentenceNodes:
+  - {fileID: -3008685072992655169}
+  - {fileID: -2421284975896701463}
+  - {fileID: -2552222247817572058}
+  - {fileID: -2285688713881453251}
+--- !u!114 &7972277087851655671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2167
+    y: -134
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: I understand it's nice to talk to you, but I am very busy having to listen
+      up to anyone who needs actual help. Now, please let me get back to work.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: -6144619728173143584}
+  childNode: {fileID: 9017688751708601886}
+--- !u!114 &8325348338689651950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1673
+    y: -326
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Welp, unfortunately we haven't found anything official. We did conclude
+      that their home location is over by Gearshaft Depths, so just finding the person
+      will be easier than what he had before.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: -3008685072992655169}
+  childNode: {fileID: -1751356042070319507}
+--- !u!114 &9016380051362367952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 434
+    y: 170
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Greetings, robots. My name is Stripline. If you need any help, just let
+      me know and the Bionic Force will help whenever they can.
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 755329030973456124}
+--- !u!114 &9017688751708601886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2386
+    y: -131
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: '*Sigh* Yes, ma''am...'
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 7972277087851655671}
+  childNode: {fileID: 0}
+--- !u!114 &9103313006885035977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1370
+    y: 188
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Stripline
+    text: Ugh, whatever. Do you want your report or not?
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
+  parentNode: {fileID: -1635789244363745335}
+  childNode: {fileID: 662665058356635382}

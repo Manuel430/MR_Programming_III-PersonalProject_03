@@ -1,0 +1,985 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8591749622244513678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 648
+    y: 350
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Yeah, of course, it seems like a fun event.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 3493324269690714727}
+  childNode: {fileID: 6013937764007018457}
+--- !u!114 &-7492195503486901991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -883
+    y: 367
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Ugh, fine, but I don't like speaking like this,
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -6816454070906643569}
+  childNode: {fileID: -927765138796553271}
+--- !u!114 &-6835381118829436520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -656
+    y: 122
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - To see you, of course!
+  - They have nowhere else to go.
+  - Just waiting for the party to start.
+  - 
+  parentSentenceNode: {fileID: -1052822387239761384}
+  childSentenceNodes:
+  - {fileID: 706567730223896534}
+  - {fileID: -435891447769399961}
+  - {fileID: 1199881486153249089}
+  - {fileID: 0}
+--- !u!114 &-6816454070906643569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1101
+    y: 365
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Just wanting to see how you're doing, but I'm not a fan of that kind of
+      fan talk.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 5326482288867564133}
+  childNode: {fileID: -7492195503486901991}
+--- !u!114 &-5530341200138601769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1727
+    y: 227
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Well, well, well. If it isn't my main bot Primal! What's good my guy?
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8816615314922900282}
+--- !u!114 &-5352395413360335024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 236
+    y: 628
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Thank you. Now just continue your travels, the party doesn't start until
+      a long time. I hope you do come to the party, I know it'll be worth it.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 2118174714685933491}
+  childNode: {fileID: 0}
+--- !u!114 &-4655019753910790145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -176
+    y: -1
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: As for you, Primal. Just know you already have the V.I.P tickets to come
+      by whenever you want. Whatever you need when the night hits, I'll do my best
+      to help out.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 706567730223896534}
+  childNode: {fileID: -3286677146425189193}
+--- !u!114 &-3286677146425189193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 41
+    y: 3
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Heh, thank you, that means a lot to me.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -4655019753910790145}
+  childNode: {fileID: -1454588569620157141}
+--- !u!114 &-2178616059921373650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 23
+    y: 430
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Sure, lo- I mean, yeah, I just hope they like it.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 4426315920700433995}
+  childNode: {fileID: 195328973436871821}
+--- !u!114 &-1454588569620157141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 239
+    y: 2
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Of course, you're a cool guy. Now go have fun, you got time to kill! Go
+      out and get ready for the party, as I'll be seeing you soon!
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -3286677146425189193}
+  childNode: {fileID: 0}
+--- !u!114 &-1052822387239761384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -848
+    y: 131
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Heh, yeah... I don't know why they're here. They're cool, but it confuses
+      me why they would show up now,
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7261118492376627901}
+  childNode: {fileID: -6835381118829436520}
+--- !u!114 &-927765138796553271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -708
+    y: 499
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - I want to know how the party is going.
+  - Any updates with my attacker?
+  - 
+  - 
+  parentSentenceNode: {fileID: -7492195503486901991}
+  childSentenceNodes:
+  - {fileID: 948725283980806607}
+  - {fileID: -625641679856777189}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-625641679856777189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -378
+    y: 630
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Seriously, that again? Primal, I've told you, we're still searching for
+      him, but we still have a career to take care of.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -927765138796553271}
+  childNode: {fileID: 6628623855469599247}
+--- !u!114 &-435891447769399961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -383
+    y: 133
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Ouch, bummer, way to bring the mood down.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -6835381118829436520}
+  childNode: {fileID: 4826131680697731321}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: Alexis_HighReputation
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -5530341200138601769}
+  - {fileID: 8816615314922900282}
+  - {fileID: 3046067637785256897}
+  - {fileID: 5326482288867564133}
+  - {fileID: 7261118492376627901}
+  - {fileID: -1052822387239761384}
+  - {fileID: -6835381118829436520}
+  - {fileID: 706567730223896534}
+  - {fileID: -4655019753910790145}
+  - {fileID: -3286677146425189193}
+  - {fileID: -1454588569620157141}
+  - {fileID: -435891447769399961}
+  - {fileID: 4826131680697731321}
+  - {fileID: 944489656937824935}
+  - {fileID: 844411309065840390}
+  - {fileID: 1199881486153249089}
+  - {fileID: -6816454070906643569}
+  - {fileID: -7492195503486901991}
+  - {fileID: -927765138796553271}
+  - {fileID: 948725283980806607}
+  - {fileID: 4426315920700433995}
+  - {fileID: -2178616059921373650}
+  - {fileID: 195328973436871821}
+  - {fileID: 3493324269690714727}
+  - {fileID: -625641679856777189}
+  - {fileID: 6628623855469599247}
+  - {fileID: 2118174714685933491}
+  - {fileID: -5352395413360335024}
+  - {fileID: -8591749622244513678}
+  - {fileID: 6152986715808618737}
+  - {fileID: 6013937764007018457}
+  - {fileID: 2149042956156915863}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &195328973436871821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 219
+    y: 429
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: As for you, I do hope that you make it. It would be nice to see you there.
+      You are coming, right?
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -2178616059921373650}
+  childNode: {fileID: 3493324269690714727}
+--- !u!114 &706567730223896534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -393
+    y: 9
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Awww, you know how to bring back the mood! Well, I hope they enjoy the
+      pre-pre show!
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -6835381118829436520}
+  childNode: {fileID: -4655019753910790145}
+--- !u!114 &844411309065840390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 240
+    y: 132
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexia
+    text: Okay, byyyyeeee!
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 944489656937824935}
+  childNode: {fileID: 0}
+--- !u!114 &944489656937824935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 25
+    y: 130
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: I'll make sure not to miss it. I'll see you soon.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 4826131680697731321}
+  childNode: {fileID: 844411309065840390}
+--- !u!114 &948725283980806607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -374
+    y: 427
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Oh, the party? Well, we haven't started it, but I already got people here,
+      that computer guy and van robot. I don't know why they're here.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -927765138796553271}
+  childNode: {fileID: 4426315920700433995}
+--- !u!114 &1199881486153249089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -381
+    y: 277
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Yeah, I suppose. At least the computer dude looks excited. the Van guy...
+      I don't know his deal...
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -6835381118829436520}
+  childNode: {fileID: 4826131680697731321}
+--- !u!114 &2118174714685933491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 22
+    y: 633
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Yeah, I understand...
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 6628623855469599247}
+  childNode: {fileID: -5352395413360335024}
+--- !u!114 &2149042956156915863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 851
+    y: 508
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Heh, typical Primal. I can't even be too mad, we do still need to find
+      them. I better get back to preperations, but I hope you change your mind.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 6152986715808618737}
+  childNode: {fileID: 0}
+--- !u!114 &3046067637785256897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1263
+    y: 136
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: I'm doing great too! Just getting ready for tonight, as we'll be having
+      a concert and a party, and once it's all done, we'll be having one last celebration
+      at a restuaraunt!
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 8816615314922900282}
+  childNode: {fileID: 7261118492376627901}
+--- !u!114 &3493324269690714727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 421
+    y: 418
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Yes]'
+  - '[No]'
+  - 
+  - 
+  parentSentenceNode: {fileID: 195328973436871821}
+  childSentenceNodes:
+  - {fileID: -8591749622244513678}
+  - {fileID: 6152986715808618737}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &4426315920700433995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -178
+    y: 429
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Guess they're really excited to see you?
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 948725283980806607}
+  childNode: {fileID: -2178616059921373650}
+--- !u!114 &4826131680697731321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -175
+    y: 127
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Well, whatever they want from me, as long as they enjoy the concert and
+      party, I'll be happy. That includes you too, Primal. Please don't miss out,
+      it'll be cool to see you here.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 1199881486153249089}
+  childNode: {fileID: 944489656937824935}
+--- !u!114 &5326482288867564133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1309
+    y: 361
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Okay, fine. What is it that you want?
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: 8816615314922900282}
+  childNode: {fileID: -6816454070906643569}
+--- !u!114 &6013937764007018457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 849
+    y: 349
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Great, awesome, sounds good. Well, you better go out and explore, I know
+      these people would like to know you as much as I do.
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -8591749622244513678}
+  childNode: {fileID: 0}
+--- !u!114 &6152986715808618737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 644
+    y: 510
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Sorry, Alexis. I need to figure out who broke my eye, it's important to
+      me.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 3493324269690714727}
+  childNode: {fileID: 2149042956156915863}
+--- !u!114 &6628623855469599247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -184
+    y: 625
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Alexis
+    text: Look, after tonight is over, we will continue our search and capture whoever
+      broke your eye. Do you understand?
+    characterSprite: {fileID: 21300000, guid: 48beeef8c5dc35b4b845ea8dd1cc09f4, type: 3}
+  parentNode: {fileID: -625641679856777189}
+  childNode: {fileID: 2118174714685933491}
+--- !u!114 &7261118492376627901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1054
+    y: 133
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Dang, that sounds super awesome! I can also see we got two people with
+      us before the show is set.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 3046067637785256897}
+  childNode: {fileID: -1052822387239761384}
+--- !u!114 &8816615314922900282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1527
+    y: 213
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Doing great, what's good with you?
+  - Can we not do this?
+  - 
+  - 
+  parentSentenceNode: {fileID: -5530341200138601769}
+  childSentenceNodes:
+  - {fileID: 3046067637785256897}
+  - {fileID: 5326482288867564133}
+  - {fileID: 0}
+  - {fileID: 0}
