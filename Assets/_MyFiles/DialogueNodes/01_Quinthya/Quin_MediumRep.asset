@@ -1,22 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
-  m_Name: Quin_MediumRep
-  m_EditorClassIdentifier: 
-  nodesList:
-  - {fileID: 4960905282454504734}
-  nodeToDrawLineFrom: {fileID: 0}
-  linePosition: {x: 0, y: 0}
---- !u!114 &4960905282454504734
+--- !u!114 &-7618334966637291808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,15 +16,514 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 338
-    y: 328
+    x: 458
+    y: 124
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Quinthya
-    text: Hi Primal! You have medium reputation.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    text: Oh? What do you need help with?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 4153095336319675832}
+  childNode: {fileID: -7164114306780542800}
+--- !u!114 &-7230676872168826530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -13
+    y: 778
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Well, it's better than nothing... I hope you have a great rest of your
+      day?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 5170191616215652344}
+  childNode: {fileID: 0}
+--- !u!114 &-7164114306780542800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 701
+    y: 109
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: If you can go to the repair area in your job, could you see if they have
+      a spare eye?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -7618334966637291808}
+  childNode: {fileID: -456857396469933399}
+--- !u!114 &-4815351344070995618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 536
+    y: 1020
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: You are not the kind bot I thought you were.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -2021228596026043439}
+  childNode: {fileID: 0}
+--- !u!114 &-4566955728557392571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 465
+    y: 451
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Oh, okay. Well, I hope you have a good day.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 4153095336319675832}
+  childNode: {fileID: 0}
+--- !u!114 &-4411539353717279967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1382
+    y: 132
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Of course, I'll be here if you need me.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 2023226040281107473}
+  childNode: {fileID: 0}
+--- !u!114 &-2179500704888130214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 464
+    y: 296
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Ah, that's unfortunate. Well, I'll be around if you need someone to talk
+      to.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 4153095336319675832}
+  childNode: {fileID: 0}
+--- !u!114 &-2110672103469808111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -16
+    y: 472
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: I'm glad you're doing good. I'm good myself, thank you. Is there anything
+      you need?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 5170191616215652344}
+  childNode: {fileID: 4153095336319675832}
+--- !u!114 &-2021228596026043439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 302
+    y: 902
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Sorry, just thinking of something else.
+  - Yeah, what about it?
+  - 
+  - 
+  parentSentenceNode: {fileID: 6319000977422062982}
+  childSentenceNodes:
+  - {fileID: 8080686006211072956}
+  - {fileID: -4815351344070995618}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-675673487849098981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -464
+    y: 725
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Good morning Primal. Is there anything I can help you with?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 0}
+  childNode: {fileID: 5170191616215652344}
+--- !u!114 &-456857396469933399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 932
+    y: 108
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Sure, of course, I'll make sure to check if we have your model.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -7164114306780542800}
+  childNode: {fileID: 2023226040281107473}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: Quin_MediumRep
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -675673487849098981}
+  - {fileID: 5170191616215652344}
+  - {fileID: -2110672103469808111}
+  - {fileID: 6882410387747822079}
+  - {fileID: -7230676872168826530}
+  - {fileID: 6319000977422062982}
+  - {fileID: 4153095336319675832}
+  - {fileID: -2021228596026043439}
+  - {fileID: 8080686006211072956}
+  - {fileID: -4815351344070995618}
+  - {fileID: -7618334966637291808}
+  - {fileID: -2179500704888130214}
+  - {fileID: -4566955728557392571}
+  - {fileID: -7164114306780542800}
+  - {fileID: -456857396469933399}
+  - {fileID: 2023226040281107473}
+  - {fileID: -4411539353717279967}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &2023226040281107473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1149
+    y: 117
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Alright, thank you.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -456857396469933399}
+  childNode: {fileID: -4411539353717279967}
+--- !u!114 &4153095336319675832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 235
+    y: 297
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - I would like some help, please.
+  - You know... I don't remember what it was.
+  - I don't need anything right now, thank you.
+  - 
+  parentSentenceNode: {fileID: -2110672103469808111}
+  childSentenceNodes:
+  - {fileID: -7618334966637291808}
+  - {fileID: -2179500704888130214}
+  - {fileID: -4566955728557392571}
+  - {fileID: 0}
+--- !u!114 &5170191616215652344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -240
+    y: 716
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Good morning Quinthya, how are you?
+  - Whattup Quinthya?
+  - I'm doing alright, thank you.
+  - It's whatever.
+  parentSentenceNode: {fileID: -675673487849098981}
+  childSentenceNodes:
+  - {fileID: -2110672103469808111}
+  - {fileID: 6882410387747822079}
+  - {fileID: -7230676872168826530}
+  - {fileID: 6319000977422062982}
+--- !u!114 &6319000977422062982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -14
+    y: 918
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Oh... Just whatever? That's it?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 5170191616215652344}
+  childNode: {fileID: -2021228596026043439}
+--- !u!114 &6882410387747822079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -16
+    y: 621
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Uhhh, I'm good? Please don't talk to me like that.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 5170191616215652344}
+  childNode: {fileID: 0}
+--- !u!114 &8080686006211072956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 532
+    y: 821
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Ah, it's okay. Please better yourself throughout the city, okay?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -2021228596026043439}
   childNode: {fileID: 0}

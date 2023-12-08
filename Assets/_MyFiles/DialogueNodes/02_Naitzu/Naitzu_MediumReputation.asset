@@ -1,5 +1,209 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8922521141143347955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 575
+    y: 325
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: ...Um, okay? Have a nice day, weird sir.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -1215387607816733301}
+  childNode: {fileID: 0}
+--- !u!114 &-7316394012052966876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 578
+    y: 453
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I'm surprised you want to come to my restauraunt. Clearly lower class people
+      would not be allowed into my services.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -1215387607816733301}
+  childNode: {fileID: -2925401786782044140}
+--- !u!114 &-3775144954970592057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 976
+    y: 45
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Maybe if you were a little, hmmm, richer. Or at least a better reputation.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 4726374436110064875}
+  childNode: {fileID: 0}
+--- !u!114 &-2925401786782044140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 774
+    y: 450
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: PLEASE, let me actually eat there, I promise I won't be any problem to
+      the other bots.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -7316394012052966876}
+  childNode: {fileID: 191082873066644000}
+--- !u!114 &-1535609195367841407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 74
+    y: 252
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Excuse me, sir, why are you talking to me?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -1215387607816733301}
+--- !u!114 &-1215387607816733301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 269
+    y: 240
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - How is the restauraunt holding up?
+  - I would like to order food.
+  - ...
+  - Why can't I join your restauraunt?
+  parentSentenceNode: {fileID: -1535609195367841407}
+  childSentenceNodes:
+  - {fileID: 5429652056366167283}
+  - {fileID: 5425763834970985097}
+  - {fileID: -8922521141143347955}
+  - {fileID: -7316394012052966876}
+--- !u!114 &-519133764009228176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 979
+    y: 173
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Now don't blame me, only blame the system that allow high and low classes.
+      Now run along, I got things to contemplate at the moment.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 6821508156802361683}
+  childNode: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,6 +216,161 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
   m_Name: Naitzu_MediumReputation
   m_EditorClassIdentifier: 
-  nodesList: []
+  nodesList:
+  - {fileID: -1535609195367841407}
+  - {fileID: 5429652056366167283}
+  - {fileID: -1215387607816733301}
+  - {fileID: 5425763834970985097}
+  - {fileID: -8922521141143347955}
+  - {fileID: -7316394012052966876}
+  - {fileID: 4726374436110064875}
+  - {fileID: 6821508156802361683}
+  - {fileID: -3775144954970592057}
+  - {fileID: -519133764009228176}
+  - {fileID: -2925401786782044140}
+  - {fileID: 191082873066644000}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
+--- !u!114 &191082873066644000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 976
+    y: 447
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Then either fix your reputation, or find a way to make a lot of money.
+      Now go away, you're starting to bother me.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -2925401786782044140}
+  childNode: {fileID: 0}
+--- !u!114 &4726374436110064875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 776
+    y: 48
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Well that's unfortunate. I really want to eat there. There's so many good
+      options you have.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 5429652056366167283}
+  childNode: {fileID: -3775144954970592057}
+--- !u!114 &5425763834970985097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 567
+    y: 181
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I'm sorry sir, but I am currently on break. Besides, you're not good enough
+      for my fine dining serivce.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -1215387607816733301}
+  childNode: {fileID: 6821508156802361683}
+--- !u!114 &5429652056366167283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 574
+    y: 49
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: It's holding up pretty good, thank you. That is all I can tell you.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -1215387607816733301}
+  childNode: {fileID: 4726374436110064875}
+--- !u!114 &6821508156802361683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 769
+    y: 179
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Bruh, all I want is a Gear-Pizza. That's so unfair.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 5425763834970985097}
+  childNode: {fileID: -519133764009228176}

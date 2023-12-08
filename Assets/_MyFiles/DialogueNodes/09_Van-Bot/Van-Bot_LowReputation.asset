@@ -32,12 +32,12 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 495
-    y: 241
+    x: 360
+    y: 243
     width: 170
     height: 115
   isDragging: 0
-  isSelected: 1
+  isSelected: 0
   sentence:
     characterName: Primal
     text: '*I may not be liked, but there''s no way I am talking to Van-Bot of ALL

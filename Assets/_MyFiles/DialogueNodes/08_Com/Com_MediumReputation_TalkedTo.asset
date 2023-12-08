@@ -16,16 +16,16 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 352
-    y: 162
+    x: 312
+    y: 159
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 0}
+    characterName: Com
+    text: I hope you have a great day, Primal!
+    characterSprite: {fileID: 21300000, guid: 40d982a9857b1be438c8388e555eaecc, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}
 --- !u!114 &11400000

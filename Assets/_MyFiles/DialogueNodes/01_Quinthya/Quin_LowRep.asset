@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1192628334640721624
+--- !u!114 &-4652172785738093952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16,18 +16,103 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 374
-    y: 149
+    x: -291
+    y: 182
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 0}
+    characterName: Quinthya
+    text: Sorry Primal, but whatever it is, it'll have to wait. With all due respect,
+      I am not really in the mood to help you. No hard feelings?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -2285017137818443368}
+  childNode: {fileID: 2991774544327735699}
+--- !u!114 &-2805984911148913846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -691
+    y: 180
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Oh, heeeeeeyyy Primal...
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 0}
-  childNode: {fileID: 0}
+  childNode: {fileID: -2285017137818443368}
+--- !u!114 &-2285017137818443368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -493
+    y: 185
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Hey Quinthya, I was just wondering if-
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -2805984911148913846}
+  childNode: {fileID: -4652172785738093952}
+--- !u!114 &-897734194738644122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 132
+    y: 80
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Yeah, you're right, I'll let you be, I hope you have a good day.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 2991774544327735699}
+  childNode: {fileID: 7816135782844799856}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41,6 +126,130 @@ MonoBehaviour:
   m_Name: Quin_LowRep
   m_EditorClassIdentifier: 
   nodesList:
-  - {fileID: -1192628334640721624}
+  - {fileID: -2805984911148913846}
+  - {fileID: -2285017137818443368}
+  - {fileID: -4652172785738093952}
+  - {fileID: 2991774544327735699}
+  - {fileID: -897734194738644122}
+  - {fileID: 7429582761273606574}
+  - {fileID: 7816135782844799856}
+  - {fileID: 3745877197772598418}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
+--- !u!114 &2991774544327735699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -92
+    y: 175
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Agree]'
+  - '[Disagree]'
+  - 
+  - 
+  parentSentenceNode: {fileID: -4652172785738093952}
+  childSentenceNodes:
+  - {fileID: -897734194738644122}
+  - {fileID: 7429582761273606574}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &3745877197772598418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 332
+    y: 270
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: You're being so childish, please leave me alone!
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 7429582761273606574}
+  childNode: {fileID: 0}
+--- !u!114 &7429582761273606574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 132
+    y: 265
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: What?! That's not fair! I need help with-
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 2991774544327735699}
+  childNode: {fileID: 3745877197772598418}
+--- !u!114 &7816135782844799856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 333
+    y: 81
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Thank you, Primal. Sorry for the inconveniences, Primal. Maybe next time.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -897734194738644122}
+  childNode: {fileID: 0}

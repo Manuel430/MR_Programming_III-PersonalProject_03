@@ -12,6 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
   m_Name: Naitzu_HighReputation_TalkedTo
   m_EditorClassIdentifier: 
-  nodesList: []
+  nodesList:
+  - {fileID: 7091277533602276923}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
+--- !u!114 &7091277533602276923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 509
+    y: 103
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: Naitzu
+    text: I hope you come by my shop later, Primal.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}

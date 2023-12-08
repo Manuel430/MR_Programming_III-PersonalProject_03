@@ -1,22 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
-  m_Name: Naitzu_HighReputation
-  m_EditorClassIdentifier: 
-  nodesList:
-  - {fileID: 5073445598936234017}
-  nodeToDrawLineFrom: {fileID: 0}
-  linePosition: {x: 0, y: 0}
---- !u!114 &5073445598936234017
+--- !u!114 &-9214583016641588537
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,15 +16,2493 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 125
-    y: 289.2
+    x: 759
+    y: -1141
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: a
-    text: a
-    characterSprite: {fileID: 21300000, guid: e9e2ef2dfe29c9e49b2f4f305fe0a562, type: 3}
-  parentNode: {fileID: 0}
+    characterName: Primal
+    text: L-Look, maybe just look for a couple of different foods online and try
+      to cook those?
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 513388743460190895}
+  childNode: {fileID: -8530735259856143131}
+--- !u!114 &-8530735259856143131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 988
+    y: -1146
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I guess that would be the best option, thank you Primal.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -9214583016641588537}
   childNode: {fileID: 0}
+--- !u!114 &-8243678199032917340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 773
+    y: -1996
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: BAH, you don't get it, just get out of here, we are not the same type of
+      artist!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3189161228336544118}
+  childNode: {fileID: 0}
+--- !u!114 &-8061282772421941718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -241
+    y: -389
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Hmph, so much for being a friend. Just leave me alone.
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 5961050552327711318}
+  childNode: {fileID: 0}
+--- !u!114 &-8029379606102849368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -264
+    y: -865
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Oh, it's hopeless, if you don't know what to do, then I'm out of luck.
+      Oh, this is just great...
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -5440248338731084189}
+  childNode: {fileID: 513388743460190895}
+--- !u!114 &-7856242415108482089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -239
+    y: -239
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Please don't say it like that! What would convince you that I know you?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 5961050552327711318}
+  childNode: {fileID: -6292155598866971626}
+--- !u!114 &-7830025462082549208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 255
+    y: -654
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I guess, but I don't want to just do what I already do.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 8911252550290099062}
+  childNode: {fileID: 6402004327634181446}
+--- !u!114 &-7271603668120446222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -686
+    y: -465
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Primal, I'm sorry, I tend to not remember everyone's name, as my restuaraunt
+      works me until my servos stop. I promise that I remember you, okay?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 1836479951287135875}
+  childNode: {fileID: 5961050552327711318}
+--- !u!114 &-6614131237290514837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 484
+    y: -365
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: You know, I don't remember either. Let's just go on our ways until we can
+      remember, okay?
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 6378804139418120984}
+  childNode: {fileID: 0}
+--- !u!114 &-6292155598866971626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -37
+    y: -95
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Just say what you know of me.
+  - You can't convince me.
+  - 
+  - 
+  parentSentenceNode: {fileID: -7856242415108482089}
+  childSentenceNodes:
+  - {fileID: -3935513807701576118}
+  - {fileID: -1626108577058247850}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-5724797340894321738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 405
+    y: -239
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: You were gonna make me food, because I'm REALLY hungry.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 6378804139418120984}
+  childNode: {fileID: -5386917636008410818}
+--- !u!114 &-5440248338731084189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -463
+    y: -864
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: I... uhh.. I...
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 98184713978187761}
+  childNode: {fileID: -8029379606102849368}
+--- !u!114 &-5386917636008410818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 634
+    y: -236
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I... Don't think that's what I was thinking of, buuut... Let me get what
+      I need to make your usual meal.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -5724797340894321738}
+  childNode: {fileID: 0}
+--- !u!114 &-5185021858688553081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -461
+    y: -1012
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Really? Why add more food when the food you have is already good?
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 98184713978187761}
+  childNode: {fileID: 437633245274274850}
+--- !u!114 &-4901052318452717933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 710
+    y: -400
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: You wanted my help to figure out if your hat was fixed, and by the looks
+      of it, it is!
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 6378804139418120984}
+  childNode: {fileID: 2582269570447379584}
+--- !u!114 &-3935513807701576118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 585
+    y: -68
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Huh, well... You enjoy a good Gear-Pizza... You like to shop around this
+      town... You... Live here?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -6292155598866971626}
+  childNode: {fileID: 5954201709978699727}
+--- !u!114 &-3734588167307150581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -34
+    y: 87
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - I need proof you know me.
+  - Nope, I'm not convinced
+  - Just answer.
+  - ANSWER THE QUESTION!!!
+  parentSentenceNode: {fileID: 7735893716480898386}
+  childSentenceNodes:
+  - {fileID: 1573491679131088490}
+  - {fileID: -1938470302123408893}
+  - {fileID: 1557721051288619739}
+  - {fileID: 275640553218292087}
+--- !u!114 &-3719162041649078488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1199
+    y: 291
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Ha, see, you can trust me. Now... what did I want to do before? Whatever,
+      it's too late to figure that out.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 960627255689761548}
+  childNode: {fileID: 0}
+--- !u!114 &-3535182578503574208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -262
+    y: -1166
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Oh, uhh, but a-as an chef, I have to keep my craft going on, I j-just can't
+      go back to the same old food.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 1849276373690862576}
+  childNode: {fileID: -566895485487432165}
+--- !u!114 &-3189161228336544118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 480
+    y: -1867
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - When you put it like that, I'm sorry
+  - Bruh, why are you so into food?
+  - Art is subjective
+  - I want to eat food, not make it.
+  parentSentenceNode: {fileID: 2083901588322906748}
+  childSentenceNodes:
+  - {fileID: -183164524199668022}
+  - {fileID: -8243678199032917340}
+  - {fileID: -2758961826941671522}
+  - {fileID: 8694332128412271148}
+--- !u!114 &-2758961826941671522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 941
+    y: -1922
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I... Oh whatever, I give up.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3189161228336544118}
+  childNode: {fileID: 0}
+--- !u!114 &-2417676745297569671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1111
+    y: -706
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Sure, what's up?
+  - No, I don't want to do anything
+  - I'm too busy to help, I'm sorry
+  - Who are you again?
+  parentSentenceNode: {fileID: -957691300105891321}
+  childSentenceNodes:
+  - {fileID: 3942264811326723703}
+  - {fileID: 521853153059085726}
+  - {fileID: 1207263296034184035}
+  - {fileID: 1836479951287135875}
+--- !u!114 &-2128075793201622310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -687
+    y: -639
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Okay, fine, but make it quick.
+  - No, I'm busy!
+  - 
+  - 
+  parentSentenceNode: {fileID: 1207263296034184035}
+  childSentenceNodes:
+  - {fileID: 6891677359421575628}
+  - {fileID: 2573912250607144096}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-1938470302123408893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 526
+    y: 251
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I'm sorry that I failed you...
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3734588167307150581}
+  childNode: {fileID: 0}
+--- !u!114 &-1626108577058247850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 399
+    y: 23
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Man, I really thought you were cool, but I guess you're not.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -6292155598866971626}
+  childNode: {fileID: 0}
+--- !u!114 &-1330370580363818734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 595
+    y: -1675
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I might dabble into making something, but maybe I'll try to work on what
+      food I already have.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 4346725577738322662}
+  childNode: {fileID: 0}
+--- !u!114 &-1323464277562413426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1219
+    y: 454
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I don't have time for this, just go.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 960627255689761548}
+  childNode: {fileID: 0}
+--- !u!114 &-1319836920391205170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -464
+    y: -1316
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: My best answer is to check on different food options across the web. You
+      can probably find a lot of inspiration there.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 98184713978187761}
+  childNode: {fileID: 1089685156427125451}
+--- !u!114 &-957691300105891321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1313
+    y: -690
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Primal! Just the bot I'm looking for, I need your help on something!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2417676745297569671}
+--- !u!114 &-920407398024461806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -245
+    y: -1714
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Hmm, I'm not sure, but maybe some Electrici-Strips would be awesome.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 1089685156427125451}
+  childNode: {fileID: 8887398923264083434}
+--- !u!114 &-566895485487432165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -36
+    y: -1429
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - It would be best to focus on making what you want better than just adding more
+    things to worry about.
+  - Let's be honest, it's not worth it.
+  - I don't want you to stress out.
+  - Food's food, just make what you make.
+  parentSentenceNode: {fileID: -3535182578503574208}
+  childSentenceNodes:
+  - {fileID: 331735010231678808}
+  - {fileID: 997420542407652768}
+  - {fileID: 1888820653552865414}
+  - {fileID: 2083901588322906748}
+--- !u!114 &-564073654295514531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 650
+    y: -991
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: ...We're really never gonna figure this out...
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 513388743460190895}
+  childNode: {fileID: 0}
+--- !u!114 &-354840921939655507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 562
+    y: -1236
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: You are making me go insanse, leave now or else I will lose more than my
+      hard drives!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 2221016275551201728}
+  childNode: {fileID: 0}
+--- !u!114 &-183164524199668022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 608
+    y: -2087
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Of course! Hmph, you know what, I think we're done here, leave me be to
+      work on my own masterpiece.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3189161228336544118}
+  childNode: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: Naitzu_HighReputation
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -957691300105891321}
+  - {fileID: -2417676745297569671}
+  - {fileID: 3942264811326723703}
+  - {fileID: 521853153059085726}
+  - {fileID: 1836479951287135875}
+  - {fileID: 1207263296034184035}
+  - {fileID: 5267668280905614717}
+  - {fileID: 98184713978187761}
+  - {fileID: -2128075793201622310}
+  - {fileID: -7271603668120446222}
+  - {fileID: 5961050552327711318}
+  - {fileID: -1319836920391205170}
+  - {fileID: 1849276373690862576}
+  - {fileID: -5185021858688553081}
+  - {fileID: -5440248338731084189}
+  - {fileID: 6891677359421575628}
+  - {fileID: 2573912250607144096}
+  - {fileID: 7735893716480898386}
+  - {fileID: -7856242415108482089}
+  - {fileID: -8061282772421941718}
+  - {fileID: 1090402481463288067}
+  - {fileID: 8911252550290099062}
+  - {fileID: -8029379606102849368}
+  - {fileID: 437633245274274850}
+  - {fileID: -3535182578503574208}
+  - {fileID: 1089685156427125451}
+  - {fileID: -920407398024461806}
+  - {fileID: -3734588167307150581}
+  - {fileID: -6292155598866971626}
+  - {fileID: 6378804139418120984}
+  - {fileID: 5180915771729107962}
+  - {fileID: -7830025462082549208}
+  - {fileID: 1544612457218626503}
+  - {fileID: 513388743460190895}
+  - {fileID: 6912706883508743128}
+  - {fileID: -566895485487432165}
+  - {fileID: 8887398923264083434}
+  - {fileID: 275640553218292087}
+  - {fileID: -1938470302123408893}
+  - {fileID: 1557721051288619739}
+  - {fileID: 1573491679131088490}
+  - {fileID: -3935513807701576118}
+  - {fileID: -1626108577058247850}
+  - {fileID: -6614131237290514837}
+  - {fileID: -4901052318452717933}
+  - {fileID: 8414128311351412808}
+  - {fileID: -5724797340894321738}
+  - {fileID: 7033298874611461528}
+  - {fileID: 6402004327634181446}
+  - {fileID: 2221016275551201728}
+  - {fileID: 3754663046829887091}
+  - {fileID: 6460778134067201204}
+  - {fileID: 4346725577738322662}
+  - {fileID: 8834328094634045091}
+  - {fileID: -564073654295514531}
+  - {fileID: -9214583016641588537}
+  - {fileID: 24689674833345641}
+  - {fileID: 2083901588322906748}
+  - {fileID: 1888820653552865414}
+  - {fileID: 331735010231678808}
+  - {fileID: 997420542407652768}
+  - {fileID: 6988490549808808637}
+  - {fileID: 1255745370280109325}
+  - {fileID: -3189161228336544118}
+  - {fileID: -183164524199668022}
+  - {fileID: 8694332128412271148}
+  - {fileID: -2758961826941671522}
+  - {fileID: -8243678199032917340}
+  - {fileID: 960627255689761548}
+  - {fileID: -3719162041649078488}
+  - {fileID: -1323464277562413426}
+  - {fileID: 5954201709978699727}
+  - {fileID: -8530735259856143131}
+  - {fileID: -354840921939655507}
+  - {fileID: -1330370580363818734}
+  - {fileID: -5386917636008410818}
+  - {fileID: 2582269570447379584}
+  - {fileID: 3896820722056476279}
+  - {fileID: 5078183521076588076}
+  - {fileID: 4522557686084200523}
+  - {fileID: 8323799028970983187}
+  - {fileID: 7047974564592577514}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &24689674833345641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 422
+    y: -1382
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Well... Ah, nevermind. I'll explain it after I finish figuring out what
+      I want to do. You should just go back home.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 6912706883508743128}
+  childNode: {fileID: 0}
+--- !u!114 &98184713978187761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -686
+    y: -968
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Answer his idea]'
+  - '[Reject his idea]'
+  - '[Question the idea]'
+  - '[Contemplate the idea]'
+  parentSentenceNode: {fileID: 3942264811326723703}
+  childSentenceNodes:
+  - {fileID: -1319836920391205170}
+  - {fileID: 1849276373690862576}
+  - {fileID: -5185021858688553081}
+  - {fileID: -5440248338731084189}
+--- !u!114 &275640553218292087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 550
+    y: 506
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: NOT IF YOU SCREAM AT ME LIKE THAT, GET OUT!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3734588167307150581}
+  childNode: {fileID: 0}
+--- !u!114 &331735010231678808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -131
+    y: -1590
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Yeah, when you say it like that, you're right. Sorry for getting too worried
+      about it. I better take a breather. Still, thank you.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -566895485487432165}
+  childNode: {fileID: 0}
+--- !u!114 &437633245274274850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -259
+    y: -1012
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I appreciate your compliment, but as a chef, I need to continue to expand
+      my variety of foods I can make. Do you understand?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -5185021858688553081}
+  childNode: {fileID: 6912706883508743128}
+--- !u!114 &513388743460190895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 9
+    y: -1049
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Try to help]'
+  - '[Give up]'
+  - '[Stand around]'
+  - '[Run]'
+  parentSentenceNode: {fileID: -8029379606102849368}
+  childSentenceNodes:
+  - {fileID: -9214583016641588537}
+  - {fileID: 6460778134067201204}
+  - {fileID: -564073654295514531}
+  - {fileID: 8414128311351412808}
+--- !u!114 &521853153059085726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -887
+    y: -790
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Ah, well... that's unfortunate. I wish you could help, but I guess not.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -2417676745297569671}
+  childNode: {fileID: 5267668280905614717}
+--- !u!114 &960627255689761548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 924
+    y: 369
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Yes
+  - No
+  - 
+  - 
+  parentSentenceNode: {fileID: 1573491679131088490}
+  childSentenceNodes:
+  - {fileID: -3719162041649078488}
+  - {fileID: -1323464277562413426}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &997420542407652768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 13
+    y: -1756
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Huh, alright then. I guess you're right...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -566895485487432165}
+  childNode: {fileID: 1255745370280109325}
+--- !u!114 &1089685156427125451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -258
+    y: -1313
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Ah, of course! You're so right, I don't know why I was panicking over.
+      It would be nice to see what I could add to my menu. Still, I want to know
+      what you would want added.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -1319836920391205170}
+  childNode: {fileID: -920407398024461806}
+--- !u!114 &1090402481463288067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -238
+    y: -534
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Thank you Primal. Say, I don't remember what I was worrying about, what
+      was it again?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 5961050552327711318}
+  childNode: {fileID: 6378804139418120984}
+--- !u!114 &1207263296034184035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -886
+    y: -639
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Oh, no worries, I can make it short and quick, it's nothing much. Please
+      help me.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -2417676745297569671}
+  childNode: {fileID: -2128075793201622310}
+--- !u!114 &1255745370280109325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 8
+    y: -1885
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: '*Some artist you are.*'
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 997420542407652768}
+  childNode: {fileID: 0}
+--- !u!114 &1544612457218626503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 143
+    y: -787
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I guess that would make sense, just don't want to copy them, you know.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 8911252550290099062}
+  childNode: {fileID: 7033298874611461528}
+--- !u!114 &1557721051288619739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 554
+    y: 377
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Ugh, fine, it is a Gear-Pizza?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3734588167307150581}
+  childNode: {fileID: 960627255689761548}
+--- !u!114 &1573491679131088490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 765
+    y: 169
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Ah, okay, I see, well, hmm... Is it... a Gear-Pizza?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3734588167307150581}
+  childNode: {fileID: 960627255689761548}
+--- !u!114 &1836479951287135875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -888
+    y: -483
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: What? I'm Naitzu. remember? Wait, is this because I tend to forget your
+      name?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -2417676745297569671}
+  childNode: {fileID: -7271603668120446222}
+--- !u!114 &1849276373690862576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -459
+    y: -1161
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Nah, it's not worth getting worked up on some food bots won't like.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 98184713978187761}
+  childNode: {fileID: -3535182578503574208}
+--- !u!114 &1888820653552865414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 193
+    y: -2008
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Yeah, you're right. I'm getting too stressed out. I need to not think of
+      this. You better head out while I try not to think of it.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -566895485487432165}
+  childNode: {fileID: 0}
+--- !u!114 &2083901588322906748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 279
+    y: -1842
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Food is NOT just food. It's art, being able to make whatever food you can
+      dream if you have the right amount of ingredients! How do you not understand?!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -566895485487432165}
+  childNode: {fileID: -3189161228336544118}
+--- !u!114 &2221016275551201728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 367
+    y: -1250
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Wha- HOW DO YOU NOT-?!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 6912706883508743128}
+  childNode: {fileID: -354840921939655507}
+--- !u!114 &2573912250607144096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -463
+    y: -563
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Ugh, fine. I guess being a great artist is the same as a great chef, too
+      busy for anyone else.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -2128075793201622310}
+  childNode: {fileID: 0}
+--- !u!114 &2582269570447379584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 923
+    y: -331
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Well, uhhh... Thanks then...... Wait a minute, HEY-!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -4901052318452717933}
+  childNode: {fileID: 0}
+--- !u!114 &3754663046829887091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 627
+    y: -1527
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Of course you don't. You're no help at all.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 6912706883508743128}
+  childNode: {fileID: 0}
+--- !u!114 &3896820722056476279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1191
+    y: -372
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Oh yeah, though I wasted so much time that I forgot. You better just head
+      out while I work on what I can do for now.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 8834328094634045091}
+  childNode: {fileID: 0}
+--- !u!114 &3942264811326723703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -885
+    y: -940
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Thank you, Primal. Alright, so in my restauraunt, I've been thinking up
+      new types of food, as I want to broaden out the variety of food. What should
+      I try to make?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -2417676745297569671}
+  childNode: {fileID: 98184713978187761}
+--- !u!114 &4346725577738322662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 387
+    y: -1592
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I'm glad you do. Heh, we're not going to go anywhere where we are right
+      now.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 6912706883508743128}
+  childNode: {fileID: -1330370580363818734}
+--- !u!114 &4522557686084200523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1521
+    y: -892
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: As an artist, I would expect you to think better, but I was wrong. Begone,
+      now.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 7033298874611461528}
+  childNode: {fileID: 0}
+--- !u!114 &5078183521076588076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1453
+    y: -1047
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Yeah, you're right! Thank you Primal, I'll do my best to make them to later
+      make my own food.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 7033298874611461528}
+  childNode: {fileID: 0}
+--- !u!114 &5180915771729107962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -20
+    y: -586
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Man, I get it, maybe asking too much was, well, too much. I'll think about
+      it tomorrow, you just have a good rest.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 8911252550290099062}
+  childNode: {fileID: 0}
+--- !u!114 &5267668280905614717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -689
+    y: -788
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Welp, I'm gonna pace around now, hopefully to find some inspiration, all
+      by myself.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 521853153059085726}
+  childNode: {fileID: 0}
+--- !u!114 &5954201709978699727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 818
+    y: -88
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Yeah, okay, you can leave now.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3935513807701576118}
+  childNode: {fileID: 0}
+--- !u!114 &5961050552327711318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -465
+    y: -414
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - I believe you
+  - I do not believe you
+  - I guess so
+  - hat's my favorite food?
+  parentSentenceNode: {fileID: -7271603668120446222}
+  childSentenceNodes:
+  - {fileID: 1090402481463288067}
+  - {fileID: -8061282772421941718}
+  - {fileID: -7856242415108482089}
+  - {fileID: 7735893716480898386}
+--- !u!114 &6378804139418120984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 185
+    y: -468
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Tell him the truth]'
+  - '[Lie]'
+  - '[Forget too]'
+  - '[Hungry]'
+  parentSentenceNode: {fileID: 1090402481463288067}
+  childSentenceNodes:
+  - {fileID: 8834328094634045091}
+  - {fileID: -4901052318452717933}
+  - {fileID: -6614131237290514837}
+  - {fileID: -5724797340894321738}
+--- !u!114 &6402004327634181446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1251
+    y: -669
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - But it's best to improve your craft
+  - Food is food, just make food.
+  - 
+  - 
+  parentSentenceNode: {fileID: -7830025462082549208}
+  childSentenceNodes:
+  - {fileID: 7047974564592577514}
+  - {fileID: 8323799028970983187}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &6460778134067201204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 476
+    y: -1063
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Sorry dude, I have no idea what we could do. I'll let you figure things
+      out. Again... I'm sorry.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 513388743460190895}
+  childNode: {fileID: 0}
+--- !u!114 &6891677359421575628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -460
+    y: -714
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Oh thank you, Primal! Okay, long story short, I need more food options
+      for my restuarant. Got any recommendations?
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2128075793201622310}
+  childNode: {fileID: 8911252550290099062}
+--- !u!114 &6912706883508743128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -17
+    y: -1267
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Yeah, I get it.
+  - No, I don't.
+  - I don't entirely understand.
+  - I'm an artist, not a chef.
+  parentSentenceNode: {fileID: 437633245274274850}
+  childSentenceNodes:
+  - {fileID: 4346725577738322662}
+  - {fileID: 3754663046829887091}
+  - {fileID: 24689674833345641}
+  - {fileID: 2221016275551201728}
+--- !u!114 &6988490549808808637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -251
+    y: -2075
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Any time, my good friend!
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 8887398923264083434}
+  childNode: {fileID: 0}
+--- !u!114 &7033298874611461528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1250
+    y: -852
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Yeah, but with copying them, you could later make something new!
+  - Just copy the dang food!
+  - 
+  - 
+  parentSentenceNode: {fileID: 1544612457218626503}
+  childSentenceNodes:
+  - {fileID: 5078183521076588076}
+  - {fileID: 4522557686084200523}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &7047974564592577514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1521
+    y: -694
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Yeah, you're right. The more I can make what I know, the better and more
+      improved they could be! Thank you Primal, I will remember this.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 6402004327634181446}
+  childNode: {fileID: 0}
+--- !u!114 &7735893716480898386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -241
+    y: -94
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: What? Why would you even ask that?
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 5961050552327711318}
+  childNode: {fileID: -3734588167307150581}
+--- !u!114 &8323799028970983187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1434
+    y: -496
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: You know, for someone who has no mouth, you sure love food. Begone, now.
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 6402004327634181446}
+  childNode: {fileID: 0}
+--- !u!114 &8414128311351412808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 812
+    y: -883
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: WAIT, WHERE ARE YOU GOING?!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: 513388743460190895}
+  childNode: {fileID: 0}
+--- !u!114 &8694332128412271148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1141
+    y: -1846
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: I'VE HAD ENOUGH!!!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -3189161228336544118}
+  childNode: {fileID: 0}
+--- !u!114 &8834328094634045091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1022
+    y: -496
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: We were looking for different foods for your restuaraunt.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 6378804139418120984}
+  childNode: {fileID: 3896820722056476279}
+--- !u!114 &8887398923264083434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -243
+    y: -1901
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Naitzu
+    text: Oh, that's a really good option. Thank you Primal, that is all that I need
+      to know! Once again, thank you so much, Primal!
+    characterSprite: {fileID: 21300000, guid: a958986ced012e0468751994a5b3c6ca, type: 3}
+  parentNode: {fileID: -920407398024461806}
+  childNode: {fileID: 6988490549808808637}
+--- !u!114 &8911252550290099062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -264
+    y: -715
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Just make what other bots make.
+  - Keep making the same food.
+  - It's too confusing.
+  - 
+  parentSentenceNode: {fileID: 6891677359421575628}
+  childSentenceNodes:
+  - {fileID: 1544612457218626503}
+  - {fileID: -7830025462082549208}
+  - {fileID: 5180915771729107962}
+  - {fileID: 0}
