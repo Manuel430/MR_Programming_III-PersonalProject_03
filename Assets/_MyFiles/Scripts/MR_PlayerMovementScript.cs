@@ -36,8 +36,6 @@ public class MR_PlayerMovementScript : MonoBehaviour
         playerInputs = new PlayerInputsScript();
         playerInputs.Player.Enable();
 
-        characterController = GetComponent<CharacterController>();
-
         speed = walkSpeed;
 
         playerInputs.Player.Jump.performed += Jump;
