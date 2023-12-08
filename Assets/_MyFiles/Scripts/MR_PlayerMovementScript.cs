@@ -25,6 +25,11 @@ public class MR_PlayerMovementScript : MonoBehaviour
     {
         inCutscene = cutscene;
     }
+    
+    public bool GetCutscene()
+    {
+        return inCutscene;
+    }
 
     private void Awake()
     {

@@ -8,9 +8,57 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319899325221451937, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70949413064cf6a46a42b5042e19b21d, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowPoints
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highPoints
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: c54b85711157941428d05b97da79b9c8, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: 6845a55081ead7b4eaaf8b36ba1a5670, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumPoints
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c7f0856589336940a6fc772668e5a68, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c60f1abbb449cf4f9168a8f528ad140, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ae4868ff8e530c44939f83e4f6f5663, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d85baad018cf5443b749adac125bb52, type: 2}
+    - target: {fileID: 3593924625671033444, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Radius
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593924625671033444, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Center.y
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4240641616909032738, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_Name
-      value: NPC_Base
+      value: NPC_Van-Bot
       objectReference: {fileID: 0}
     - target: {fileID: 4553489403938518388, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51,6 +99,26 @@ PrefabInstance:
     - target: {fileID: 4553489403938518388, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969138070523968755, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70949413064cf6a46a42b5042e19b21d, type: 2}
+    - target: {fileID: 7227487345624606940, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Height
+      value: 6.4914184
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227487345624606940, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Radius
+      value: 2.0684571
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227487345624606940, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227487345624606940, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Center.y
+      value: 3.2457092
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

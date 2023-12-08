@@ -1,0 +1,649 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8744168066966943210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1489
+    y: -250
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Well, I was trying to hire people to try and find out who was the one to
+      damage my eye. I got others to help out, but I seriously need all the help
+      I can.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -1445212199745934382}
+  childNode: {fileID: -8532106153302058773}
+--- !u!114 &-8532106153302058773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1688
+    y: -244
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Oh, this is interesting. Alright then, I'll try my best to remember that.
+      My team and I will do our best to help out bring that bot into justice!
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -8744168066966943210}
+  childNode: {fileID: 2017131174926947072}
+--- !u!114 &-7737950648742353820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1637
+    y: 113
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Oh, well sorry. I know how I can help. I should spread out the word about
+      Drill Force all over the city!
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 2941715238478576968}
+  childNode: {fileID: 1439828541550777598}
+--- !u!114 &-7466980851545967071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2087
+    y: -249
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Of course, stay cool, Primal!
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: 2017131174926947072}
+  childNode: {fileID: 0}
+--- !u!114 &-7355848577518208800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 408
+    y: 204
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Well my name's Primal Knight, or just Primal. It's pretty cool to meet
+      a new team.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 6822097606596894572}
+  childNode: {fileID: 3560145171615409486}
+--- !u!114 &-6483186073752584079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1039
+    y: -45
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Oh, wow, already? Oh- uh- I mean. Yes, of course, what is it?
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -1642813421152913349}
+  childNode: {fileID: -1445212199745934382}
+--- !u!114 &-5708548164160959940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1041
+    y: 109
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Yeaaaah, I don't need to hear about it, okay?
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -1642813421152913349}
+  childNode: {fileID: -24993893850893682}
+--- !u!114 &-4524681543634576210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1234
+    y: 252
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Our team consist of me, Sapphire, Guard, Sharp Drill, Knightis, Kylola,
+      and Com.
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: 8734536530077479547}
+  childNode: {fileID: 3499116569605745933}
+--- !u!114 &-4088692581240601933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1712
+    y: -96
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Oh, real funny, Primal. I'll make sure to remember that. Now go to your
+      house and we'll see you there...
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: 2196873040388333005}
+  childNode: {fileID: 0}
+--- !u!114 &-1642813421152913349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 803
+    y: 195
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - I need some help.
+  - You guys aren't big?
+  - What is Drill Force?
+  - Man, desperate much?
+  parentSentenceNode: {fileID: 3560145171615409486}
+  childSentenceNodes:
+  - {fileID: -6483186073752584079}
+  - {fileID: -5708548164160959940}
+  - {fileID: 8734536530077479547}
+  - {fileID: 7993285662623045148}
+--- !u!114 &-1445212199745934382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1264
+    y: -101
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Speak the truth]'
+  - '[Lie and make fun]'
+  - 
+  - 
+  parentSentenceNode: {fileID: -6483186073752584079}
+  childSentenceNodes:
+  - {fileID: -8744168066966943210}
+  - {fileID: 2196873040388333005}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-24993893850893682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1234
+    y: 110
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Why not? You guys should be big like the other guys!
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -5708548164160959940}
+  childNode: {fileID: 2941715238478576968}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: Cyber_MediumReputation
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 6822097606596894572}
+  - {fileID: -7355848577518208800}
+  - {fileID: 3560145171615409486}
+  - {fileID: -1642813421152913349}
+  - {fileID: -6483186073752584079}
+  - {fileID: -5708548164160959940}
+  - {fileID: 8734536530077479547}
+  - {fileID: 7993285662623045148}
+  - {fileID: -4524681543634576210}
+  - {fileID: 3499116569605745933}
+  - {fileID: -24993893850893682}
+  - {fileID: 2941715238478576968}
+  - {fileID: -7737950648742353820}
+  - {fileID: 1439828541550777598}
+  - {fileID: -1445212199745934382}
+  - {fileID: -8744168066966943210}
+  - {fileID: 2196873040388333005}
+  - {fileID: -8532106153302058773}
+  - {fileID: -4088692581240601933}
+  - {fileID: 2017131174926947072}
+  - {fileID: -7466980851545967071}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1439828541550777598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1837
+    y: 108
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Huh... Okay then, don't get too hyped.
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -7737950648742353820}
+  childNode: {fileID: 0}
+--- !u!114 &2017131174926947072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1883
+    y: -244
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Thank you so much! You guys will definitely be helpful to this mystery.
+      I better head out now, I hope you guys can help me!
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -8532106153302058773}
+  childNode: {fileID: -7466980851545967071}
+--- !u!114 &2196873040388333005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1501
+    y: -86
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: I need you guys to go to my house and oil up the gears and servos all over
+      my house.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -1445212199745934382}
+  childNode: {fileID: -4088692581240601933}
+--- !u!114 &2941715238478576968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1437
+    y: 114
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Yeah, but it's still rude that you called my team not big enough.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -24993893850893682}
+  childNode: {fileID: -7737950648742353820}
+--- !u!114 &3499116569605745933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1441
+    y: 255
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Speaking of, Com is around here, he's excited for the upcoming concert
+      going on. Maybe you should talk to him, you seem like someone he would like
+      to be friends with.
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -4524681543634576210}
+  childNode: {fileID: 0}
+--- !u!114 &3560145171615409486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 608
+    y: 203
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Oh, well, thank you. I'm hoping for Drill Force to become something bigger,
+      like the Bionic Force. So, what's the issue?
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -7355848577518208800}
+  childNode: {fileID: -1642813421152913349}
+--- !u!114 &6822097606596894572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 211
+    y: 207
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Greetings robot, my name is Cyber, what seems to be the issue?
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -7355848577518208800}
+--- !u!114 &7993285662623045148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1036
+    y: 410
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Alright, get out.
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -1642813421152913349}
+  childNode: {fileID: 0}
+--- !u!114 &8734536530077479547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1037
+    y: 257
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Cyber
+    text: Oh, well.. Drill Force is my new team that conisist of robots who want
+      to make this world a better place.
+    characterSprite: {fileID: 21300000, guid: 505afd89a24626341a30c1a73ccb8d62, type: 3}
+  parentNode: {fileID: -1642813421152913349}
+  childNode: {fileID: -4524681543634576210}

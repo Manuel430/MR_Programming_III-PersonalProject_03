@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2952901871997404706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 337
+    y: 205
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Base
+    text: Choice C
+    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+  parentNode: {fileID: 4159616997304823455}
+  childNode: {fileID: 0}
+--- !u!114 &-1783389840877188758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -474
+    y: 139
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Based
+    text: If you see this, then it works!
+    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 4516242745470933697}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: New Node Graph
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -1783389840877188758}
+  - {fileID: 4516242745470933697}
+  - {fileID: 4159616997304823455}
+  - {fileID: 726424019962456791}
+  - {fileID: 2872803457712382178}
+  - {fileID: -2952901871997404706}
+  - {fileID: 3816517414210723335}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &726424019962456791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 340
+    y: -19
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Base
+    text: Choice A
+    characterSprite: {fileID: 21300000, guid: e9e2ef2dfe29c9e49b2f4f305fe0a562, type: 3}
+  parentNode: {fileID: 4159616997304823455}
+  childNode: {fileID: 0}
+--- !u!114 &2872803457712382178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 340
+    y: 92
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Base
+    text: Choice B
+    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+  parentNode: {fileID: 4159616997304823455}
+  childNode: {fileID: 0}
+--- !u!114 &3816517414210723335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 345
+    y: 318
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Base
+    text: Choice D
+    characterSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  parentNode: {fileID: 4159616997304823455}
+  childNode: {fileID: 0}
+--- !u!114 &4159616997304823455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 78
+    y: 140
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - A
+  - B
+  - C
+  - D
+  parentSentenceNode: {fileID: 4516242745470933697}
+  childSentenceNodes:
+  - {fileID: 726424019962456791}
+  - {fileID: 2872803457712382178}
+  - {fileID: -2952901871997404706}
+  - {fileID: 3816517414210723335}
+--- !u!114 &4516242745470933697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -238
+    y: 125
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Based
+    text: The questions will decide ur fate
+    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+  parentNode: {fileID: -1783389840877188758}
+  childNode: {fileID: 4159616997304823455}

@@ -1,0 +1,436 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9005574297978574648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 893
+    y: 507
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: I'm sorry, if you don't like how I roll, then you're not getting all of
+      me.
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: -2834013347766021142}
+  childNode: {fileID: 0}
+--- !u!114 &-7112724221253476611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -165
+    y: 316
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Hey Prima, I hope I'm not bothering-
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -4697594570675311990}
+  childNode: {fileID: -1586801617561633852}
+--- !u!114 &-6282639700672526971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1098
+    y: 44
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Unfortunate, but it sounds like a plan. Just please make sure that this
+      plan ACTUALLY works.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 4116919855867332260}
+  childNode: {fileID: 874880831977057719}
+--- !u!114 &-4697594570675311990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -377
+    y: 317
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: Hey Primal, nice to see you again. I don't have much time, so make this
+      quick.
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -7112724221253476611}
+--- !u!114 &-2834013347766021142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 661
+    y: 303
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - How is the searching going on?
+  - Do you want to go out and eat something?
+  - What's up with you?
+  - Why are you so bothered with me?
+  parentSentenceNode: {fileID: 2567396623173164452}
+  childSentenceNodes:
+  - {fileID: 4116919855867332260}
+  - {fileID: 5469200365480687807}
+  - {fileID: 3079700706570403710}
+  - {fileID: -9005574297978574648}
+--- !u!114 &-1586801617561633852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 37
+    y: 314
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: You can just call me April, and you are bothering me no matter what you
+      say.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -7112724221253476611}
+  childNode: {fileID: 8055405136701113111}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: AprilDarkPrima_MediumReputation
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -4697594570675311990}
+  - {fileID: -7112724221253476611}
+  - {fileID: -1586801617561633852}
+  - {fileID: 8055405136701113111}
+  - {fileID: 2567396623173164452}
+  - {fileID: -2834013347766021142}
+  - {fileID: 4116919855867332260}
+  - {fileID: 5469200365480687807}
+  - {fileID: 3079700706570403710}
+  - {fileID: -9005574297978574648}
+  - {fileID: -6282639700672526971}
+  - {fileID: 874880831977057719}
+  - {fileID: 7404095537625886509}
+  - {fileID: 3999860621312571915}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &874880831977057719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1308
+    y: 47
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: Relax, Primal, I know what I'm doing. As long as I get paid, I'll be able
+      to do whatever it takes to complete the mission.
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: -6282639700672526971}
+  childNode: {fileID: 7404095537625886509}
+--- !u!114 &2567396623173164452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 438
+    y: 318
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: Is that so? Alright, what is it that you want?
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: 8055405136701113111}
+  childNode: {fileID: -2834013347766021142}
+--- !u!114 &3079700706570403710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 894
+    y: 358
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: Don't know, don't care. If you're gonna bother me with questions, then
+      simply leave.
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: -2834013347766021142}
+  childNode: {fileID: 0}
+--- !u!114 &3999860621312571915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1719
+    y: 48
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: Sounds good, be careful out there, Primal.
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: 7404095537625886509}
+  childNode: {fileID: 0}
+--- !u!114 &4116919855867332260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 895
+    y: 54
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: It's going alright, couldn't find anything useful, but once that party
+      starts, it would be so much easier to find them.
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: -2834013347766021142}
+  childNode: {fileID: -6282639700672526971}
+--- !u!114 &5469200365480687807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 895
+    y: 205
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: April Dark
+    text: Absolutely not.
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
+  parentNode: {fileID: -2834013347766021142}
+  childNode: {fileID: 0}
+--- !u!114 &7404095537625886509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1514
+    y: 50
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Alright, thank you April. I'll try to walk it off while you continue your
+      search.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 874880831977057719}
+  childNode: {fileID: 3999860621312571915}
+--- !u!114 &8055405136701113111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 239
+    y: 322
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: Oh, sorry Prima- I mean April. I just want to check up on you.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -1586801617561633852}
+  childNode: {fileID: 2567396623173164452}

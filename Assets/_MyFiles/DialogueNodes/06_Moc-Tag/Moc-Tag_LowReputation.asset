@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41e677e60a19e4fb9d9de7f050e8b8, type: 3}
+  m_Name: Moc-Tag_LowReputation
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 8328430778011491717}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &8328430778011491717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 658
+    y: 174
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Moc-Tag
+    text: Please stay away from me, from what I can see, you're not a very good bot.
+    characterSprite: {fileID: 21300000, guid: e4f63b5c7633cf641a82b8ebc7b714ce, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}

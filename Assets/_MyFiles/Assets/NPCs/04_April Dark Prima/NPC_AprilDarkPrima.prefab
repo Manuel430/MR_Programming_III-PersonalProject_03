@@ -8,9 +8,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319899325221451937, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f26615a42742a794196879490d205fd1, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowPoints
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highPoints
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: caf01487e810b074b9f846be8260886a, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: ab44e832bc5d0d44f96d35b8dcc28295, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumPoints
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: lowReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: 0a1f1c4d139ee5b4bbea91581df438de, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: highReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: 11ca3c310af83234bad2a8cdf76ddfd2, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumTalkedTo
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ac9297d2c8304146b31f6d7314613f3, type: 2}
+    - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: mediumReputation
+      value: 
+      objectReference: {fileID: 11400000, guid: 32374dcef5fc8aa44bc767c3725bf6d9, type: 2}
     - target: {fileID: 4240641616909032738, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_Name
-      value: NPC_Base
+      value: NPC_AprilDarkPrima
       objectReference: {fileID: 0}
     - target: {fileID: 4553489403938518388, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51,6 +91,22 @@ PrefabInstance:
     - target: {fileID: 4553489403938518388, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969138070523968755, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f26615a42742a794196879490d205fd1, type: 2}
+    - target: {fileID: 7227487345624606940, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Height
+      value: 6.0274434
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227487345624606940, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Radius
+      value: 1.4530976
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227487345624606940, guid: c604293a4af76db4e8ff441452052baa, type: 3}
+      propertyPath: m_Center.y
+      value: 3.0137217
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
