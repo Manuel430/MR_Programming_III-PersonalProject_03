@@ -385,6 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54354c5f45a533044981a10e9a488984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterController: {fileID: 1020524391398388829}
   inCutscene: 0
   speed: 0
   walkSpeed: 15

@@ -17,26 +17,10 @@ namespace MR
 
         public void Awake()
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-
             playerInput = new PlayerInputsScript();
             playerInput.Player.Enable();
             playerInput.Player.Pause.performed += PausingGame;
-        }
-
-        public void Update()
-        {
-            if(answerUI.gameObject == true)
-            {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-            }
-            else
-            {
-                Cursor.lockState= CursorLockMode.Locked;
-                Cursor.visible = false;
-            }
+            Time.timeScale = 1.0f;
         }
 
         public bool GetPaused()
@@ -56,18 +40,12 @@ namespace MR
                 isPaused = true;
                 Time.timeScale = 0f;
                 pauseUI.SetActive(true);
-
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
             }
             else
             {
                 isPaused = false;
                 Time.timeScale = 1f;
                 pauseUI.SetActive(false);
-
-                Cursor.lockState= CursorLockMode.Locked;
-                Cursor.visible = false;
             }
         }
 

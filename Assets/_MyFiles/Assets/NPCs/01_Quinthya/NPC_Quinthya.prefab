@@ -55,7 +55,7 @@ PrefabInstance:
     - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: lowReputation
       value: 
-      objectReference: {fileID: 11400000, guid: abbbaf79caf5078409fe3048a6f3b578, type: 2}
+      objectReference: {fileID: 11400000, guid: e72d86da794d31348a9a6a4ab9a885d0, type: 2}
     - target: {fileID: 1831003179363146218, guid: c604293a4af76db4e8ff441452052baa, type: 3}
       propertyPath: highReputation
       value: 

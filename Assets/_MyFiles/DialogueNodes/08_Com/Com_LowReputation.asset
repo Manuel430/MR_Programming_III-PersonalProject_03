@@ -16,12 +16,12 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 496
-    y: 260
+    x: 94
+    y: 229
     width: 170
     height: 115
   isDragging: 0
-  isSelected: 0
+  isSelected: 1
   sentence:
     characterName: Com
     text: '*sigh* Hey... look... I understand if you''re here for the party, but
@@ -45,8 +45,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 293
-    y: 261
+    x: -109
+    y: 230
     width: 170
     height: 115
   isDragging: 0
@@ -73,12 +73,12 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 695
-    y: 261
+    x: 293
+    y: 230
     width: 170
     height: 115
   isDragging: 0
-  isSelected: 0
+  isSelected: 1
   sentence:
     characterName: Com
     text: I hope you enjoy the concert, though...

@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class MR_PlayerMovementScript : MonoBehaviour
 {
     PlayerInputsScript playerInputs;
-    CharacterController characterController;
+    [SerializeField] CharacterController characterController;
 
     [Header("Custscene")]
     [SerializeField] bool inCutscene;
@@ -35,8 +35,6 @@ public class MR_PlayerMovementScript : MonoBehaviour
     {
         playerInputs = new PlayerInputsScript();
         playerInputs.Player.Enable();
-
-        characterController = GetComponent<CharacterController>();
 
         speed = walkSpeed;
 

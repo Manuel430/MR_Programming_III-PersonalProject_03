@@ -244,8 +244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 500, y: 1000}
+  m_AnchoredPosition: {x: -49.825, y: 0}
+  m_SizeDelta: {x: 648.2802, y: 1000}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &5956923634748239830
 CanvasRenderer:
@@ -2604,6 +2604,7 @@ MonoBehaviour:
   onDialogueFinished:
     m_PersistentCalls:
       m_Calls: []
+  npcDialogue: {fileID: 0}
 --- !u!114 &2603706987850887657
 MonoBehaviour:
   m_ObjectHideFlags: 0

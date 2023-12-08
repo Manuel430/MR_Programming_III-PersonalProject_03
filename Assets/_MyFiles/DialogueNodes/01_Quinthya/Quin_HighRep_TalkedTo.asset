@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 101
-    y: 50
+    x: 172
+    y: 265
     width: 170
     height: 115
   isDragging: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Hey Primal. You need anything else?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}
 --- !u!114 &11400000

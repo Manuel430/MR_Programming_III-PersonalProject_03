@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 294
-    y: 1884.1997
+    x: 1104
+    y: 2209.1997
     width: 170
     height: 115
   isDragging: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Ugh, fine. Let me see. You want... hmm...
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -2558937934566945429}
   childNode: {fileID: 3479294481692634360}
 --- !u!114 &-9019189362945584568
@@ -44,8 +44,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2771
-    y: -455.8003
+    x: 95
+    y: -325.8003
     width: 170
     height: 115
   isDragging: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: I know, right! I'm glad you understand it! It's nice to see someone agree
       with a thought!
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 1247486430480387173}
   childNode: {fileID: -6967046060051668249}
 --- !u!114 &-8878698662936884897
@@ -73,8 +73,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 296
-    y: 676.199
+    x: 1510
+    y: 916.199
     width: 170
     height: 115
   isDragging: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
     text: Oh, well, sorry for how I said it.  I'm doing alright, just on my break.
       It can be rough taking care of everyone when they're very young, but it's worth
       doing it.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -7123712586216150100}
   childNode: {fileID: -3362815862537542714}
 --- !u!114 &-8772041281772126885
@@ -103,8 +103,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 4280
-    y: -357.8003
+    x: 3246
+    y: -1206.8003
     width: 170
     height: 115
   isDragging: 0
@@ -112,8 +112,8 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: '*you''re no fun*'
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
-  parentNode: {fileID: 8485742030053310965}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 8631970567240596849}
   childNode: {fileID: 0}
 --- !u!114 &-8748268059126495132
 MonoBehaviour:
@@ -131,8 +131,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2294
-    y: 177.19928
+    x: 1606
+    y: 47.19922
     width: 170
     height: 115
   isDragging: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Speaking of, I do want to focus on my break right now. You can join if
       you want.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 316180039937658707}
   childNode: {fileID: 0}
 --- !u!114 &-8577639629731861681
@@ -160,8 +160,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 296
-    y: 1280.1995
+    x: 1447
+    y: 1607.1995
     width: 170
     height: 115
   isDragging: 0
@@ -169,9 +169,9 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: How about yourself? Are you doing good?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 0}
-  childNode: {fileID: 8947696097042034372}
+  childNode: {fileID: 5759863603087693609}
 --- !u!114 &-8545894208459141807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,8 +188,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2120
-    y: 398.19916
+    x: 1978
+    y: 425.19922
     width: 170
     height: 115
   isDragging: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: M-My job? I work in the daycare, and jobs give b, b-breaaa...
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 3453683574357100845}
   childNode: {fileID: -7016807160974891011}
 --- !u!114 &-7843194788659831308
@@ -216,8 +216,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2769
-    y: 1210.199
+    x: 2587
+    y: 2037.199
     width: 170
     height: 115
   isDragging: 0
@@ -226,37 +226,9 @@ MonoBehaviour:
     characterName: Quinthya
     text: You're welcome. You should probably head home, so I'll wish you luck with
       everything.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5553745163352531686}
   childNode: {fileID: 0}
---- !u!114 &-7662527779370475077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 2022
-    y: 1043.1995
-    width: 170
-    height: 115
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 8947696097042034372}
-  childNode: {fileID: 8815397850019296130}
 --- !u!114 &-7574415132531269548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,8 +245,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2066
-    y: 661.1992
+    x: 1985
+    y: 755.1992
     width: 170
     height: 115
   isDragging: 0
@@ -282,7 +254,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Yeah, that's my job. I'm a daycare attendant...
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -3362815862537542714}
   childNode: {fileID: -7016807160974891011}
 --- !u!114 &-7123712586216150100
@@ -301,8 +273,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 96
-    y: 728.199
+    x: 1283
+    y: 1113.199
     width: 190
     height: 145
   isDragging: 0
@@ -334,8 +306,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2295
-    y: 660.199
+    x: 2443
+    y: 537.199
     width: 170
     height: 115
   isDragging: 0
@@ -343,9 +315,9 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Wait, you're telling me you never knew my job this whole time??
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -8545894208459141807}
-  childNode: {fileID: -5429627723574628483}
+  childNode: {fileID: -2662552840745611879}
 --- !u!114 &-6967046060051668249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,16 +334,17 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2980
-    y: -458.8003
+    x: 67
+    y: -539.8003
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Quinthya
-    text: Say
-    characterSprite: {fileID: 0}
+    text: Well, I better continue on with my break. Take care of yourself and stay
+      safe!
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -9019189362945584568}
   childNode: {fileID: 0}
 --- !u!114 &-6755098181494017138
@@ -390,8 +363,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2101
-    y: 62.199036
+    x: 1346
+    y: -181.80103
     width: 170
     height: 115
   isDragging: 0
@@ -401,7 +374,7 @@ MonoBehaviour:
     text: Hah, yeah, that would be nice. You can hang around here if you want to.
       All you gotta do is chill and relax, maybe explore around the town on your
       "break"
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 3453683574357100845}
   childNode: {fileID: 5784535578732837654}
 --- !u!114 &-6681790489424583857
@@ -420,8 +393,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 294
-    y: 828.199
+    x: 1751
+    y: 1089.199
     width: 170
     height: 115
   isDragging: 0
@@ -429,9 +402,37 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Okay, okay, don't have to be so rude about it. What made you so upset today?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -7123712586216150100}
   childNode: {fileID: 3329472969997565898}
+--- !u!114 &-6076654703082083072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2164
+    y: 1800
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: ...
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 5759863603087693609}
+  childNode: {fileID: -3845750435440329866}
 --- !u!114 &-5894566671923267546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,8 +449,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 3659
-    y: -387.8003
+    x: 1764
+    y: -1132.8003
     width: 170
     height: 115
   isDragging: 0
@@ -457,7 +458,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Alright, you too, Quin.
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: 1592779481342016204}
   childNode: {fileID: 0}
 --- !u!114 &-5856772439972264614
@@ -476,8 +477,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2492
-    y: 57.19928
+    x: 2052
+    y: -569.8008
     width: 170
     height: 115
   isDragging: 0
@@ -486,8 +487,36 @@ MonoBehaviour:
     characterName: Quinthya
     text: Nah, my work won't let me move anywhere too far, don't want us to go too
       far, sorry Primal.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5784535578732837654}
+  childNode: {fileID: 0}
+--- !u!114 &-5817964315305153770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3001
+    y: 329
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Aww, alright, you better get out of here,
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -2662552840745611879}
   childNode: {fileID: 0}
 --- !u!114 &-5800492449914180177
 MonoBehaviour:
@@ -505,8 +534,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2078
-    y: 781.1992
+    x: 1992
+    y: 914.1992
     width: 170
     height: 115
   isDragging: 0
@@ -515,42 +544,9 @@ MonoBehaviour:
     characterName: Quinthya
     text: Umm, okay? Guess you're gonna look for someone else to talk to. Have a
       nice day.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -3362815862537542714}
   childNode: {fileID: 0}
---- !u!114 &-5429627723574628483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
-  m_Name: Answer Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 2513
-    y: 639.1992
-    width: 190
-    height: 145
-  isDragging: 0
-  isSelected: 0
-  answers:
-  - 
-  - Uhhhhhh
-  - No, but that's pretty cool
-  - '[Leave]'
-  parentSentenceNode: {fileID: -7016807160974891011}
-  childSentenceNodes:
-  - {fileID: 5770886756841237197}
-  - {fileID: 8975461940584037732}
-  - {fileID: 5695390889555850910}
-  - {fileID: 0}
 --- !u!114 &-5199448097713297420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -567,8 +563,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2066
-    y: 540.199
+    x: 1988
+    y: 620.199
     width: 170
     height: 115
   isDragging: 0
@@ -576,7 +572,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: 'Thanks, Primal. Well, there''s not much to talk about else, so '
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -3362815862537542714}
   childNode: {fileID: 0}
 --- !u!114 &-5030368625495174036
@@ -595,8 +591,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2105
-    y: 286.19916
+    x: 1536
+    y: 247.19922
     width: 170
     height: 115
   isDragging: 0
@@ -605,7 +601,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Eh, worth a shot. Welp, if you ever change your mind, you know where to
       find me.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 3453683574357100845}
   childNode: {fileID: 0}
 --- !u!114 &-4952604544198029503
@@ -624,8 +620,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1848
-    y: 1510.199
+    x: 1569
+    y: 2088.199
     width: 190
     height: 145
   isDragging: 0
@@ -657,8 +653,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -108
-    y: 930.199
+    x: 1126
+    y: 1302.199
     width: 170
     height: 115
   isDragging: 0
@@ -667,7 +663,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Oh, I see. Well, I'm glad you decided to talk to me nonetheless. Anything
       you want to talk about?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5641569259847562504}
   childNode: {fileID: -7123712586216150100}
 --- !u!114 &-4323518815936543426
@@ -686,8 +682,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2130
-    y: 1341.199
+    x: 1942
+    y: 2032.199
     width: 170
     height: 115
   isDragging: 0
@@ -696,7 +692,7 @@ MonoBehaviour:
     characterName: Primal
     text: It's my broken eye. I'm getting use to it, but it still hurts thinking
       about it.
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: 3002871231571384834}
   childNode: {fileID: -459660319031085058}
 --- !u!114 &-3862371819275297824
@@ -715,17 +711,45 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2895
-    y: 1040.1995
+    x: 2593
+    y: 1474.1995
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 0}
+    characterName: Primal
+    text: Eh, it's just my eye. It hurts a lot, and I don't know what to do...
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 3002871231571384834}
+  childNode: {fileID: 8340481797257804266}
+--- !u!114 &-3845750435440329866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2348
+    y: 1806
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: ...
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -6076654703082083072}
   childNode: {fileID: 0}
 --- !u!114 &-3719126537210452170
 MonoBehaviour:
@@ -743,8 +767,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 291
-    y: 380.1989
+    x: 908
+    y: 585.199
     width: 170
     height: 115
   isDragging: 0
@@ -752,7 +776,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: I'm doing good, just on my break. Want to join me on my break?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -350412694209837501}
   childNode: {fileID: 3453683574357100845}
 --- !u!114 &-3528092157462592129
@@ -771,8 +795,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1969
-    y: 1193.1995
+    x: 1936
+    y: 1731.1995
     width: 170
     height: 115
   isDragging: 0
@@ -780,8 +804,8 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Who cares about what I'm doing, I'm fine.
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 8947696097042034372}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 5759863603087693609}
   childNode: {fileID: 6974576950525300121}
 --- !u!114 &-3362815862537542714
 MonoBehaviour:
@@ -799,8 +823,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1835
-    y: 660.1992
+    x: 1647
+    y: 725.1992
     width: 190
     height: 145
   isDragging: 0
@@ -816,6 +840,39 @@ MonoBehaviour:
   - {fileID: -7574415132531269548}
   - {fileID: -5800492449914180177}
   - {fileID: 0}
+--- !u!114 &-2662552840745611879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2702
+    y: 544
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Oh I knew, I just like hearing you describe it
+  - Uhhhhhhhhh
+  - No, but it's pretty cool
+  - '[Leave]'
+  parentSentenceNode: {fileID: -7016807160974891011}
+  childSentenceNodes:
+  - {fileID: -5817964315305153770}
+  - {fileID: 5770886756841237197}
+  - {fileID: 8975461940584037732}
+  - {fileID: 5695390889555850910}
 --- !u!114 &-2611958763601537845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,8 +889,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2881
-    y: 1843.1997
+    x: 2012
+    y: 2636.1997
     width: 170
     height: 115
   isDragging: 0
@@ -841,8 +898,8 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: I hate you.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
-  parentNode: {fileID: -2551082411663039015}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 6453295243104823969}
   childNode: {fileID: 0}
 --- !u!114 &-2558937934566945429
 MonoBehaviour:
@@ -860,8 +917,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 100
-    y: 1288.2
+    x: 1107
+    y: 1996.2
     width: 190
     height: 145
   isDragging: 0
@@ -877,39 +934,6 @@ MonoBehaviour:
   - {fileID: -337807215943680891}
   - {fileID: -469999596340458607}
   - {fileID: -9085864159504842223}
---- !u!114 &-2551082411663039015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
-  m_Name: Answer Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 2590
-    y: 1833.1997
-    width: 190
-    height: 145
-  isDragging: 0
-  isSelected: 0
-  answers:
-  - 
-  - 
-  - Please?
-  - ...
-  parentSentenceNode: {fileID: 7795119407245734003}
-  childSentenceNodes:
-  - {fileID: 8898469102713133948}
-  - {fileID: -2611958763601537845}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &-2404593188517805406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -926,8 +950,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2335
-    y: 1688.1997
+    x: 1345
+    y: 2300.1997
     width: 170
     height: 115
   isDragging: 0
@@ -937,8 +961,8 @@ MonoBehaviour:
     text: Ha, gotcha! Well, we aren't looking for anyone at the moment, but next
       time I'll make sure to keep your name in mind when they open roles. Welp, you
       better head out now, okay?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
-  parentNode: {fileID: 5006464778655169042}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 6888223064955323859}
   childNode: {fileID: 0}
 --- !u!114 &-2156931260192694708
 MonoBehaviour:
@@ -956,8 +980,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -601
-    y: 1079.199
+    x: 668
+    y: 1609.199
     width: 170
     height: 115
   isDragging: 0
@@ -966,7 +990,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Hey Primal! Nice seeing you again! I'm happy that you decided to come into
       town again! Need anything from me?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 5641569259847562504}
 --- !u!114 &-1520141118798369931
@@ -985,8 +1009,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2538
-    y: -89.80072
+    x: 763
+    y: -183.80078
     width: 170
     height: 115
   isDragging: 0
@@ -994,7 +1018,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Uhhh... yeah?
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -221194361695236513}
   childNode: {fileID: 4675235855886011589}
 --- !u!114 &-732012694132274074
@@ -1013,8 +1037,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 297
-    y: 978.199
+    x: 1746
+    y: 1214.199
     width: 170
     height: 115
   isDragging: 0
@@ -1023,7 +1047,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Well, I guess it's been alright, just having to deal with the young kids,
       that's all. Currently on break to breath from it all.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -7123712586216150100}
   childNode: {fileID: 1601674600637259449}
 --- !u!114 &-469999596340458607
@@ -1042,8 +1066,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 296
-    y: 1725.1995
+    x: 1363
+    y: 2097.1995
     width: 170
     height: 115
   isDragging: 0
@@ -1052,7 +1076,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Oh, I'm sorry to hear that. Things have been rough these few years. Need
       to vent?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -2558937934566945429}
   childNode: {fileID: -4952604544198029503}
 --- !u!114 &-459660319031085058
@@ -1071,8 +1095,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2333
-    y: 1214.199
+    x: 2146
+    y: 2035.199
     width: 170
     height: 115
   isDragging: 0
@@ -1081,7 +1105,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: I understand. I know it's rough to live with it, but I'll do whatever I
       can to get the engineers to fix your eye.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -4323518815936543426}
   childNode: {fileID: 5553745163352531686}
 --- !u!114 &-350412694209837501
@@ -1100,8 +1124,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 94
-    y: 549.1987
+    x: 717
+    y: 928.1987
     width: 190
     height: 145
   isDragging: 0
@@ -1133,8 +1157,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 294
-    y: 1578.199
+    x: 1371
+    y: 1963.199
     width: 170
     height: 115
   isDragging: 0
@@ -1143,7 +1167,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: You know what, nevermind, guess you just want to see me. I don't feel comfortable
       with that, please leave.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -2558937934566945429}
   childNode: {fileID: 0}
 --- !u!114 &-327292445036378172
@@ -1162,8 +1186,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 4466
-    y: -224.80054
+    x: 3654
+    y: -1015.80054
     width: 170
     height: 115
   isDragging: 0
@@ -1171,7 +1195,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: OUT!
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 791224952793056771}
   childNode: {fileID: 0}
 --- !u!114 &-272856197168567885
@@ -1190,8 +1214,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2051
-    y: 897.1992
+    x: 2204
+    y: 1108.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1200,7 +1224,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Speaking of... I better get back into working on said things. You probably
       should work on your things too. No hard feelings over any of this, okay?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 3329472969997565898}
   childNode: {fileID: 0}
 --- !u!114 &-221194361695236513
@@ -1219,8 +1243,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2292
-    y: -122.800476
+    x: 381
+    y: 64.19946
     width: 190
     height: 145
   isDragging: 0
@@ -1252,8 +1276,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2569
-    y: 1416.1992
+    x: 2359
+    y: 2155.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1261,7 +1285,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: I hope your day gets better.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 2857156123162381887}
   childNode: {fileID: 0}
 --- !u!114 &-25765346904775754
@@ -1280,8 +1304,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2822
-    y: -328.8003
+    x: 1080
+    y: -215.8003
     width: 170
     height: 115
   isDragging: 0
@@ -1290,7 +1314,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: I know you don't have a job, don't lie to me, heheh. It's... kinda rude,
       to be honest.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 4802886501796049091}
   childNode: {fileID: 5127971664807585460}
 --- !u!114 &11400000
@@ -1325,13 +1349,11 @@ MonoBehaviour:
   - {fileID: -193057778525083586}
   - {fileID: -4323518815936543426}
   - {fileID: -459660319031085058}
-  - {fileID: 5006464778655169042}
   - {fileID: 5553745163352531686}
   - {fileID: -7843194788659831308}
   - {fileID: 1232598664117519385}
   - {fileID: -2404593188517805406}
   - {fileID: 7795119407245734003}
-  - {fileID: -2551082411663039015}
   - {fileID: 8898469102713133948}
   - {fileID: -2611958763601537845}
   - {fileID: -8878698662936884897}
@@ -1346,7 +1368,6 @@ MonoBehaviour:
   - {fileID: -7574415132531269548}
   - {fileID: -5800492449914180177}
   - {fileID: -7016807160974891011}
-  - {fileID: -5429627723574628483}
   - {fileID: 5770886756841237197}
   - {fileID: 8975461940584037732}
   - {fileID: 5695390889555850910}
@@ -1382,23 +1403,34 @@ MonoBehaviour:
   - {fileID: -5894566671923267546}
   - {fileID: 1516791352459471316}
   - {fileID: 8333243448608645846}
-  - {fileID: 8485742030053310965}
   - {fileID: -8772041281772126885}
   - {fileID: 791224952793056771}
   - {fileID: -327292445036378172}
   - {fileID: -6967046060051668249}
   - {fileID: -8577639629731861681}
-  - {fileID: 8947696097042034372}
   - {fileID: 4282087674046834289}
-  - {fileID: -7662527779370475077}
   - {fileID: -3528092157462592129}
   - {fileID: 698864473114733097}
   - {fileID: 6974576950525300121}
-  - {fileID: 8815397850019296130}
   - {fileID: 3002871231571384834}
   - {fileID: -3862371819275297824}
   - {fileID: 7623235409804957507}
   - {fileID: -2558937934566945429}
+  - {fileID: 3863824888729567436}
+  - {fileID: 5759863603087693609}
+  - {fileID: -6076654703082083072}
+  - {fileID: 3620151247738842357}
+  - {fileID: 6453295243104823969}
+  - {fileID: 6888223064955323859}
+  - {fileID: 4435158581614412362}
+  - {fileID: 8631970567240596849}
+  - {fileID: -5817964315305153770}
+  - {fileID: -2662552840745611879}
+  - {fileID: 1106175349965709621}
+  - {fileID: -3845750435440329866}
+  - {fileID: 906845675486633430}
+  - {fileID: 8340481797257804266}
+  - {fileID: 7852081659315740679}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
 --- !u!114 &253329870736799917
@@ -1417,8 +1449,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2114
-    y: 1527.1992
+    x: 1939
+    y: 2156.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1426,7 +1458,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Nah, I rather not, it's too much to talk about, sorry.
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -4952604544198029503}
   childNode: {fileID: 2857156123162381887}
 --- !u!114 &316180039937658707
@@ -1445,8 +1477,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2102
-    y: 179.19928
+    x: 1321
+    y: 99.19922
     width: 170
     height: 115
   isDragging: 0
@@ -1454,7 +1486,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Relaxc, it was just a joke, don't worry about it.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 3453683574357100845}
   childNode: {fileID: -8748268059126495132}
 --- !u!114 &465452148914381069
@@ -1473,8 +1505,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -109
-    y: 1080.199
+    x: 1080
+    y: 1603.199
     width: 170
     height: 115
   isDragging: 0
@@ -1482,7 +1514,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Well, it is nice of you to ask how I am.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5641569259847562504}
   childNode: {fileID: 7231620657929362368}
 --- !u!114 &650731427221355472
@@ -1501,8 +1533,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -106
-    y: 781.199
+    x: 746
+    y: 1136.199
     width: 170
     height: 115
   isDragging: 0
@@ -1510,7 +1542,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Oh? Is that so? What is it that you need to know?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5641569259847562504}
   childNode: {fileID: -350412694209837501}
 --- !u!114 &698864473114733097
@@ -1529,8 +1561,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1785
-    y: 1347.1995
+    x: 1935
+    y: 1908.1995
     width: 170
     height: 115
   isDragging: 0
@@ -1538,8 +1570,8 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Uhhh... I forgot.
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: 8947696097042034372}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 5759863603087693609}
   childNode: {fileID: 4282087674046834289}
 --- !u!114 &791224952793056771
 MonoBehaviour:
@@ -1557,8 +1589,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 4277
-    y: -221.80054
+    x: 3325
+    y: -974.80054
     width: 170
     height: 115
   isDragging: 0
@@ -1567,8 +1599,8 @@ MonoBehaviour:
     characterName: Primal
     text: Keep working even when your servos jerking! Keep working even when your
       servos jerking!
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
-  parentNode: {fileID: 8485742030053310965}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 8631970567240596849}
   childNode: {fileID: -327292445036378172}
 --- !u!114 &899903429105402723
 MonoBehaviour:
@@ -1586,8 +1618,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2076
-    y: -99.80072
+    x: 532
+    y: 330.19922
     width: 170
     height: 115
   isDragging: 0
@@ -1596,9 +1628,65 @@ MonoBehaviour:
     characterName: Quinthya
     text: Well, I'm doing alright, just realxing before having to go back to work.
       You understand the stress of working, right?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 7576793252576414605}
   childNode: {fileID: -221194361695236513}
+--- !u!114 &906845675486633430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2622
+    y: 1623
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: You know what, nevermind, I'm out of here. Have a good day Quinthya
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 3002871231571384834}
+  childNode: {fileID: 0}
+--- !u!114 &1106175349965709621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1897
+    y: 1591
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: Ah, that is unfortunate. Well, I hope you have a good day.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 3620151247738842357}
+  childNode: {fileID: 0}
 --- !u!114 &1232598664117519385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1615,8 +1703,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2334
-    y: 1560.1995
+    x: 1365
+    y: 2444.1995
     width: 170
     height: 115
   isDragging: 0
@@ -1624,8 +1712,8 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Okay, you're just wasting my time, have a good day, Primal.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
-  parentNode: {fileID: 5006464778655169042}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 6888223064955323859}
   childNode: {fileID: 0}
 --- !u!114 &1247486430480387173
 MonoBehaviour:
@@ -1643,8 +1731,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2538
-    y: -446.8003
+    x: 210
+    y: -123.80029
     width: 170
     height: 115
   isDragging: 0
@@ -1652,7 +1740,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Heh, yeah. At least the destination makes up for the journey.
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -221194361695236513}
   childNode: {fileID: -9019189362945584568}
 --- !u!114 &1464534729467926993
@@ -1671,8 +1759,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2999
-    y: 575.1992
+    x: 3465
+    y: 458.19922
     width: 170
     height: 115
   isDragging: 0
@@ -1681,7 +1769,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Speaking of, I'm on my break for my job, and I would like to get back to
       my break. Maybe you should go back on your JOB after YOUR break.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5770886756841237197}
   childNode: {fileID: 0}
 --- !u!114 &1516791352459471316
@@ -1700,8 +1788,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 3663
-    y: -260.80054
+    x: 2155
+    y: -937.80054
     width: 170
     height: 115
   isDragging: 0
@@ -1709,7 +1797,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Keep working even when your servos jerking!
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: 1592779481342016204}
   childNode: {fileID: 8333243448608645846}
 --- !u!114 &1592779481342016204
@@ -1728,8 +1816,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 3422
-    y: -339.8003
+    x: 1891
+    y: -931.8003
     width: 190
     height: 145
   isDragging: 0
@@ -1761,8 +1849,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1815
-    y: 1017.1992
+    x: 2005
+    y: 1229.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1771,7 +1859,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: If you want to join me on my break, be my guest, though I don't have much
       time left.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -732012694132274074}
   childNode: {fileID: 0}
 --- !u!114 &1988261245291577791
@@ -1790,8 +1878,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 293
-    y: 532.1992
+    x: 1104
+    y: 670.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1799,7 +1887,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: '*is this guy for real?*'
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -350412694209837501}
   childNode: {fileID: 8496822331317903508}
 --- !u!114 &2240478151077305876
@@ -1818,8 +1906,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2537
-    y: -209.80054
+    x: 557
+    y: -347.80054
     width: 170
     height: 115
   isDragging: 0
@@ -1827,7 +1915,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Yeah, I guess so.
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -221194361695236513}
   childNode: {fileID: 4675235855886011589}
 --- !u!114 &2857156123162381887
@@ -1846,8 +1934,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2336
-    y: 1414.1992
+    x: 2143
+    y: 2157.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1855,7 +1943,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: I see. Well, whatever it is, just know I'm here for you, okay?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 253329870736799917}
   childNode: {fileID: -193057778525083586}
 --- !u!114 &3002871231571384834
@@ -1874,8 +1962,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2556
-    y: 1039.1995
+    x: 2378
+    y: 1635.1995
     width: 190
     height: 145
   isDragging: 0
@@ -1887,8 +1975,8 @@ MonoBehaviour:
   - 
   parentSentenceNode: {fileID: 6974576950525300121}
   childSentenceNodes:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -3862371819275297824}
+  - {fileID: 906845675486633430}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!114 &3016380637763409302
@@ -1907,8 +1995,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 3195
-    y: 813.1992
+    x: 3868
+    y: 764.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1916,7 +2004,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: GOTTA GO!!
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: 6481721965654774042}
   childNode: {fileID: 0}
 --- !u!114 &3329472969997565898
@@ -1935,8 +2023,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1816
-    y: 897.1992
+    x: 1984
+    y: 1092.1992
     width: 170
     height: 115
   isDragging: 0
@@ -1945,7 +2033,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: I'm doing fine, but I don't know if I would say I'm doing better... Not
       because of you, but because of... other reasons.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -6681790489424583857}
   childNode: {fileID: -272856197168567885}
 --- !u!114 &3453683574357100845
@@ -1964,8 +2052,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1894
-    y: 286.1989
+    x: 922
+    y: 269.19897
     width: 190
     height: 145
   isDragging: 0
@@ -1997,8 +2085,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1834
-    y: 1692.1997
+    x: 1092
+    y: 2410.1997
     width: 170
     height: 115
   isDragging: 0
@@ -2006,9 +2094,37 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: You want to apply for the caretaking job here?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -9085864159504842223}
-  childNode: {fileID: 5006464778655169042}
+  childNode: {fileID: 6888223064955323859}
+--- !u!114 &3620151247738842357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1660
+    y: 1593
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: I'm doing pretty good myself. Thought I'm not sure what I want to do now.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 5759863603087693609}
+  childNode: {fileID: 1106175349965709621}
 --- !u!114 &3716356257597097441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2025,18 +2141,46 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 294
-    y: 87.19934
+    x: 435
+    y: 710.1992
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterName: Quinthya
+    text: Awww, thank you. I'm doing alright. How are you doing Primal?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -350412694209837501}
-  childNode: {fileID: 0}
+  childNode: {fileID: 3863824888729567436}
+--- !u!114 &3863824888729567436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 190
+    y: 520
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Primal
+    text: I'm doing fine. There isn't much that I could talk about.
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: 3716356257597097441}
+  childNode: {fileID: 4435158581614412362}
 --- !u!114 &3883402696099924910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2053,8 +2197,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 3214
-    y: -329.8003
+    x: 1663
+    y: -704.8003
     width: 170
     height: 115
   isDragging: 0
@@ -2063,7 +2207,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: It's okay, you're good. Just make sure you stay safe, and NEVER sing that
       jingle again, okay?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5127971664807585460}
   childNode: {fileID: 1592779481342016204}
 --- !u!114 &4282087674046834289
@@ -2082,8 +2226,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1958
-    y: 1347.1995
+    x: 2161
+    y: 1910.1995
     width: 170
     height: 115
   isDragging: 0
@@ -2091,8 +2235,37 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Bye.
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: 698864473114733097}
+  childNode: {fileID: 0}
+--- !u!114 &4435158581614412362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2
+    y: 343
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: It's okay. Asking for how a bot's day is helps builds bonds. Maybe you
+      can try it with other bots here!
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 3863824888729567436}
   childNode: {fileID: 0}
 --- !u!114 &4675235855886011589
 MonoBehaviour:
@@ -2110,8 +2283,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2831
-    y: -169.80054
+    x: 841
+    y: -485.80054
     width: 170
     height: 115
   isDragging: 0
@@ -2119,7 +2292,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Eh, nevermind. Just make sure you keep yourself in good condition, okay?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 2240478151077305876}
   childNode: {fileID: 0}
 --- !u!114 &4802886501796049091
@@ -2138,8 +2311,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2538
-    y: -331.8003
+    x: 786
+    y: 67.19971
     width: 170
     height: 115
   isDragging: 0
@@ -2148,42 +2321,9 @@ MonoBehaviour:
     characterName: Primal
     text: Nope, I'm all about work. You know how I go, keep working even when your
       servos jerking!
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -221194361695236513}
   childNode: {fileID: -25765346904775754}
---- !u!114 &5006464778655169042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
-  m_Name: Answer Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 2093
-    y: 1674.1997
-    width: 190
-    height: 145
-  isDragging: 0
-  isSelected: 0
-  answers:
-  - 
-  - ...
-  - Bingo!
-  - No.
-  parentSentenceNode: {fileID: 3479294481692634360}
-  childSentenceNodes:
-  - {fileID: 1232598664117519385}
-  - {fileID: -2404593188517805406}
-  - {fileID: 7795119407245734003}
-  - {fileID: 0}
 --- !u!114 &5127971664807585460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2200,8 +2340,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 3027
-    y: -332.8003
+    x: 1390
+    y: -498.8003
     width: 170
     height: 115
   isDragging: 0
@@ -2209,7 +2349,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Sorry, sorry. I'll just let you be, okay?
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -25765346904775754}
   childNode: {fileID: 3883402696099924910}
 --- !u!114 &5553745163352531686
@@ -2228,8 +2368,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2551
-    y: 1212.199
+    x: 2371
+    y: 2032.199
     width: 170
     height: 115
   isDragging: 0
@@ -2237,7 +2377,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Thanks. I doubt they'll prioritize it, but it's the thought that counts.
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -459660319031085058}
   childNode: {fileID: -7843194788659831308}
 --- !u!114 &5641569259847562504
@@ -2256,8 +2396,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -366
-    y: 1065.199
+    x: 872
+    y: 1587.199
     width: 190
     height: 145
   isDragging: 0
@@ -2289,8 +2429,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2776
-    y: 806.1992
+    x: 3149
+    y: 793.1992
     width: 170
     height: 115
   isDragging: 0
@@ -2298,9 +2438,42 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: 'I, uh-I... ummmm... '
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
-  parentNode: {fileID: -5429627723574628483}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
+  parentNode: {fileID: -2662552840745611879}
   childNode: {fileID: 6481721965654774042}
+--- !u!114 &5759863603087693609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1574
+    y: 1874
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - '[Doing Good]'
+  - '[Doing Bad]'
+  - '[...]'
+  - '[Forget]'
+  parentSentenceNode: {fileID: -8577639629731861681}
+  childSentenceNodes:
+  - {fileID: 3620151247738842357}
+  - {fileID: -3528092157462592129}
+  - {fileID: -6076654703082083072}
+  - {fileID: 698864473114733097}
 --- !u!114 &5770886756841237197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2317,8 +2490,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2769
-    y: 576.1992
+    x: 3089
+    y: 454.19922
     width: 170
     height: 115
   isDragging: 0
@@ -2327,8 +2500,8 @@ MonoBehaviour:
     characterName: Quinthya
     text: Well, for your information, I take care of any young bots that are brought
       here until their parents come to pick them up.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
-  parentNode: {fileID: -5429627723574628483}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -2662552840745611879}
   childNode: {fileID: 1464534729467926993}
 --- !u!114 &5784535578732837654
 MonoBehaviour:
@@ -2346,8 +2519,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2295
-    y: 57.19928
+    x: 1680
+    y: -430.80078
     width: 170
     height: 115
   isDragging: 0
@@ -2355,7 +2528,7 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: Sounds fun, maybe you can join me on your break too!
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: -6755098181494017138}
   childNode: {fileID: -5856772439972264614}
 --- !u!114 &5940480140242636090
@@ -2374,8 +2547,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -109
-    y: 1230.199
+    x: 1108
+    y: 1815.199
     width: 170
     height: 115
   isDragging: 0
@@ -2384,9 +2557,42 @@ MonoBehaviour:
     characterName: Quinthya
     text: Umm... Are you making me guess what you want? You should know I don't like
       doing this.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 5641569259847562504}
   childNode: {fileID: -2558937934566945429}
+--- !u!114 &6453295243104823969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1650
+    y: 2572
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Please?
+  - ...
+  - 
+  - 
+  parentSentenceNode: {fileID: 7795119407245734003}
+  childSentenceNodes:
+  - {fileID: 8898469102713133948}
+  - {fileID: -2611958763601537845}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &6481721965654774042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,8 +2609,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2994
-    y: 810.1992
+    x: 3507
+    y: 777.1992
     width: 170
     height: 115
   isDragging: 0
@@ -2412,9 +2618,42 @@ MonoBehaviour:
   sentence:
     characterName: Primal
     text: (She won't remember if I were to leave her be!)
-    characterSprite: {fileID: 21300000, guid: d2eb2e1eb27850a4396bdbb47a7af0e4, type: 3}
+    characterSprite: {fileID: 21300000, guid: 8271ce13507645a46a7091df199bdec1, type: 3}
   parentNode: {fileID: 5695390889555850910}
   childNode: {fileID: 3016380637763409302}
+--- !u!114 &6888223064955323859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1053
+    y: 2574
+    width: 190
+    height: 145
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Bingo!
+  - ...
+  - No.
+  - 
+  parentSentenceNode: {fileID: 3479294481692634360}
+  childSentenceNodes:
+  - {fileID: -2404593188517805406}
+  - {fileID: 1232598664117519385}
+  - {fileID: 7795119407245734003}
+  - {fileID: 0}
 --- !u!114 &6974576950525300121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2431,8 +2670,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2330
-    y: 1093.1995
+    x: 2165
+    y: 1658.1995
     width: 170
     height: 115
   isDragging: 0
@@ -2441,7 +2680,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: Umm... When you say it like that, it doesn't make it sound good. You need
       any help?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 1e01ebb3e576e7844b8490ad95712d9a, type: 3}
   parentNode: {fileID: -3528092157462592129}
   childNode: {fileID: 3002871231571384834}
 --- !u!114 &7231620657929362368
@@ -2460,8 +2699,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 92
-    y: 1081.199
+    x: 1263
+    y: 1603.199
     width: 170
     height: 115
   isDragging: 0
@@ -2470,7 +2709,7 @@ MonoBehaviour:
     characterName: Quinthya
     text: I'm doing alright, just been so focused on work that I'm not even sure
       what I want to do right now, heh.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 465452148914381069}
   childNode: {fileID: -8577639629731861681}
 --- !u!114 &7576793252576414605
@@ -2489,8 +2728,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 295
-    y: 229.19904
+    x: 626
+    y: 566.199
     width: 170
     height: 115
   isDragging: 0
@@ -2498,7 +2737,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Heh, please don't talk to me like that, okay?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -350412694209837501}
   childNode: {fileID: 899903429105402723}
 --- !u!114 &7623235409804957507
@@ -2517,16 +2756,16 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 296
-    y: 1434.2
+    x: 1368
+    y: 1810.2
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 0}
+    characterName: Quinthya
+    text: No, no, it's okay. I'll give you some time to think it over, okay?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -2558937934566945429}
   childNode: {fileID: 0}
 --- !u!114 &7795119407245734003
@@ -2545,8 +2784,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2333
-    y: 1854.1997
+    x: 1387
+    y: 2583.1997
     width: 170
     height: 115
   isDragging: 0
@@ -2554,9 +2793,37 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Are you serious? Fine... You want your eye fixed?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
-  parentNode: {fileID: 5006464778655169042}
-  childNode: {fileID: -2551082411663039015}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 6888223064955323859}
+  childNode: {fileID: 6453295243104823969}
+--- !u!114 &7852081659315740679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3046
+    y: 1469
+    width: 170
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Quinthya
+    text: I hope your day gets better, Primal.
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 8340481797257804266}
+  childNode: {fileID: 0}
 --- !u!114 &8230270078404259823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2573,8 +2840,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2994
-    y: 691.1992
+    x: 3490
+    y: 588.1992
     width: 170
     height: 115
   isDragging: 0
@@ -2582,7 +2849,7 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Now I better let you be to understand your other friends, okay?
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 8975461940584037732}
   childNode: {fileID: 0}
 --- !u!114 &8333243448608645846
@@ -2601,8 +2868,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 3860
-    y: -259.80054
+    x: 2456
+    y: -970.80054
     width: 170
     height: 115
   isDragging: 0
@@ -2610,10 +2877,10 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Stop it, please.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 1516791352459471316}
-  childNode: {fileID: 8485742030053310965}
---- !u!114 &8485742030053310965
+  childNode: {fileID: 8631970567240596849}
+--- !u!114 &8340481797257804266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2622,30 +2889,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
-  m_Name: Answer Node
+  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
+  m_Name: Sentence Node
   m_EditorClassIdentifier: 
   connectedNodesList: []
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 4063
-    y: -275.80054
-    width: 190
-    height: 145
+    x: 2821
+    y: 1467
+    width: 170
+    height: 115
   isDragging: 0
   isSelected: 0
-  answers:
-  - 
-  - 
-  - '[Stop]'
-  - '[Continue]'
-  parentSentenceNode: {fileID: 8333243448608645846}
-  childSentenceNodes:
-  - {fileID: -8772041281772126885}
-  - {fileID: 791224952793056771}
-  - {fileID: 0}
-  - {fileID: 0}
+  sentence:
+    characterName: Quinthya
+    text: Ah, I'm sorry to hear that. I don't have much time to spare, but maybe
+      later we can meet up and disccuss about your feelings, okay?
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -3862371819275297824}
+  childNode: {fileID: 7852081659315740679}
 --- !u!114 &8496822331317903508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2662,8 +2925,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 1889
-    y: 440.19916
+    x: 1173
+    y: 487.19922
     width: 170
     height: 115
   isDragging: 0
@@ -2671,10 +2934,10 @@ MonoBehaviour:
   sentence:
     characterName: Quinthtya
     text: Okay, have a good day, Primal..
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: 1988261245291577791}
   childNode: {fileID: 0}
---- !u!114 &8815397850019296130
+--- !u!114 &8631970567240596849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2683,25 +2946,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 661c130193a63a5409fa1dc6b0378efc, type: 3}
-  m_Name: Sentence Node
+  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
+  m_Name: Answer Node
   m_EditorClassIdentifier: 
   connectedNodesList: []
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2315
-    y: 927.19946
-    width: 170
-    height: 115
+    x: 2884
+    y: -1018
+    width: 190
+    height: 145
   isDragging: 0
   isSelected: 0
-  sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 0}
-  parentNode: {fileID: -7662527779370475077}
-  childNode: {fileID: 0}
+  answers:
+  - '[Stop]'
+  - '[Continue]'
+  - 
+  - 
+  parentSentenceNode: {fileID: 8333243448608645846}
+  childSentenceNodes:
+  - {fileID: -8772041281772126885}
+  - {fileID: 791224952793056771}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &8898469102713133948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2718,8 +2986,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2880
-    y: 1690.1997
+    x: 1929
+    y: 2421.1997
     width: 170
     height: 115
   isDragging: 0
@@ -2728,42 +2996,9 @@ MonoBehaviour:
     characterName: Quinthya
     text: Look, I understand you're hurting, but please inform the engineers about
       this, not me. Speaking of, you should probably talk to them instead.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
-  parentNode: {fileID: -2551082411663039015}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: 6453295243104823969}
   childNode: {fileID: 0}
---- !u!114 &8947696097042034372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1b2ca611499a8546b8a2630bb98a355, type: 3}
-  m_Name: Answer Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 1673
-    y: 1168.1995
-    width: 190
-    height: 145
-  isDragging: 0
-  isSelected: 0
-  answers:
-  - '[Doing good]'
-  - '[Doing bad]'
-  - 
-  - '[Forget]'
-  parentSentenceNode: {fileID: -8577639629731861681}
-  childSentenceNodes:
-  - {fileID: -7662527779370475077}
-  - {fileID: -3528092157462592129}
-  - {fileID: 698864473114733097}
-  - {fileID: 0}
 --- !u!114 &8975461940584037732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2780,8 +3015,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 2768
-    y: 692.1992
+    x: 3095
+    y: 592.1992
     width: 170
     height: 115
   isDragging: 0
@@ -2790,8 +3025,8 @@ MonoBehaviour:
     characterName: Quinthya
     text: Well, thanks, but you should really know about what your friends do to
       better understand them.
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
-  parentNode: {fileID: -5429627723574628483}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
+  parentNode: {fileID: -2662552840745611879}
   childNode: {fileID: 8230270078404259823}
 --- !u!114 &9080298421058817877
 MonoBehaviour:
@@ -2809,8 +3044,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 295
-    y: 1136.199
+    x: 1583
+    y: 1367.199
     width: 170
     height: 115
   isDragging: 0
@@ -2818,6 +3053,6 @@ MonoBehaviour:
   sentence:
     characterName: Quinthya
     text: Well, let me know when you remember, I guess?
-    characterSprite: {fileID: 21300000, guid: 75443e7c04c24ff4287266c3987fed2e, type: 3}
+    characterSprite: {fileID: 21300000, guid: d91bcb53bd775504d8395f7724744be9, type: 3}
   parentNode: {fileID: -7123712586216150100}
   childNode: {fileID: 0}

@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,7 @@ namespace MR
         [SerializeField] float mediumPoints;
         [SerializeField] float lowPoints;
         [SerializeField] float reputation;
+
 
         [Header("OutsideScripts")]
         [SerializeField] MR_DialogueBehavior dialogueBehavior;
@@ -135,8 +137,10 @@ namespace MR
             {
                 if (!talkedTo)
                 {
+
                     dialogueBehavior.StartDialogue(mediumReputation);
                     talkedTo = true;
+
                 }
                 else
                 {
@@ -147,15 +151,20 @@ namespace MR
             {
                 if (!talkedTo)
                 {
+
                     dialogueBehavior.StartDialogue(lowReputation);
                     talkedTo = true;
+
                 }
                 else
                 {
+
                     dialogueBehavior.StartDialogue(lowTalkedTo);
+
                 }
             }
         }
+
 
     }
 }
