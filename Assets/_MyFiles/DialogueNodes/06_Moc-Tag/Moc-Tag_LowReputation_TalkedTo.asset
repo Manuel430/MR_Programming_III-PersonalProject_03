@@ -16,16 +16,16 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 495
-    y: 151
+    x: 496
+    y: 148
     width: 170
     height: 115
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: 
-    characterSprite: {fileID: 0}
+    characterName: Moc-Tag
+    text: Get out.
+    characterSprite: {fileID: 21300000, guid: e4f63b5c7633cf641a82b8ebc7b714ce, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}
 --- !u!114 &11400000

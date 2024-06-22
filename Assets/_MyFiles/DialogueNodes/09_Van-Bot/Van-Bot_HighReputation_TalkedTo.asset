@@ -16,7 +16,7 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 285
+    x: 386
     y: 90
     width: 170
     height: 115

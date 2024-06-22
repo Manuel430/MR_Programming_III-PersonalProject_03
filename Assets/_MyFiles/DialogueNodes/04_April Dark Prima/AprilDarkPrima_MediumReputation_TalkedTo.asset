@@ -16,16 +16,16 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 473
+    x: 470
     y: 120
     width: 170
     height: 115
   isDragging: 0
-  isSelected: 1
+  isSelected: 0
   sentence:
     characterName: April Dark Prima
     text: Okay, see you later.
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 5eb1d31ebc1c56f4ea5647d19b7edb18, type: 3}
   parentNode: {fileID: 0}
   childNode: {fileID: 0}
 --- !u!114 &11400000
